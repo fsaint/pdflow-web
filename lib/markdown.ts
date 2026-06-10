@@ -75,7 +75,7 @@ export async function getPageContent(slug: string): Promise<{ html: string; meta
   if (!fs.existsSync(filePath)) return null
 
   const raw = fs.readFileSync(filePath, 'utf8')
-  const body = stripHtmlCommentFrontmatter(raw)
+  const body = stripHtmlCommentFrontmatter(raw).replace(/\s*\{#[^}]+\}/g, '')
 
   const result = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(body)
   const html = result.toString()
