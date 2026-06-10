@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { remark } from 'remark'
+import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
 
 const contentDir = path.join(process.cwd(), 'content')
@@ -76,7 +77,7 @@ export async function getPageContent(slug: string): Promise<{ html: string; meta
   const raw = fs.readFileSync(filePath, 'utf8')
   const body = stripHtmlCommentFrontmatter(raw)
 
-  const result = await remark().use(remarkHtml, { sanitize: false }).process(body)
+  const result = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(body)
   const html = result.toString()
 
   const meta = pageMeta[slug]
