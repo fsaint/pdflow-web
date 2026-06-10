@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   title: 'PDFlow — PDF Editor for iPhone',
   description: 'Merge, compress, split, rotate and protect PDFs on iPhone. No subscription. One-time payment. Works offline.',
   metadataBase: new URL('https://pdflow.pro'),
+  icons: {
+    icon: '/favicon-32.png',
+    apple: '/apple-touch-icon.png',
+  },
+  openGraph: {
+    siteName: 'PDFlow',
+    images: [{ url: '/icon.png', width: 1024, height: 1024 }],
+  },
 }
 
 const APP_STORE_URL = '#'
