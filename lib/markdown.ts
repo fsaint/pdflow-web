@@ -66,7 +66,7 @@ const pageMeta: Record<string, Omit<PageMeta, 'slug'>> = {
 }
 
 function stripHtmlCommentFrontmatter(content: string): string {
-  return content.replace(/^<!--[\s\S]*?-->\n*/m, '').trim()
+  return content.replace(/^(<!--|&lt;!--)[\s\S]*?(-->|--&gt;)\n*/m, '').trim()
 }
 
 export async function getPageContent(slug: string): Promise<{ html: string; meta: PageMeta } | null> {
