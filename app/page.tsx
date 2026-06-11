@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Merge, compress, split, rotate, unlock and protect PDFs on iPhone. One-time payment. No subscription. Works completely offline.',
 }
 
-const APP_STORE_URL = '#'
+const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'
 
 const features = [
   { slug: 'merge-pdf-iphone', label: 'Merge PDF', icon: '⊕', desc: 'Combine multiple PDFs into one' },

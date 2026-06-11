@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
 }
 
-const APP_STORE_URL = '#'
+const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -55,6 +55,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/reorder-pdf-iphone" className="hover:text-gray-900">Reorder Pages</Link>
               <Link href="/remove-pages-pdf-iphone" className="hover:text-gray-900">Remove Pages</Link>
               <Link href="/pdf-to-image-iphone" className="hover:text-gray-900">PDF to Image</Link>
+            </div>
+            <div className="flex justify-center gap-6 mb-4 text-xs text-gray-400">
+              <Link href="/privacy" className="hover:text-gray-600">Privacy Policy</Link>
+              <Link href="/support" className="hover:text-gray-600">Support</Link>
             </div>
             <p className="text-xs text-gray-400">&copy; {new Date().getFullYear()} PDFlow. All rights reserved.</p>
           </div>

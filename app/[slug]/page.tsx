@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 
-const APP_STORE_URL = '#'
+const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'
 
 type Props = { params: Promise<{ slug: string }> }
 
