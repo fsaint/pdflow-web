@@ -1,8 +1,17 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — PDFlow',
-  description: 'PDFlow privacy policy. Your PDFs never leave your device.',
+  title: 'Privacy policy: your PDFs stay on your iPhone | PDFlow',
+  description: 'How PDFlow handles your data: every PDF is processed on your iPhone, nothing is uploaded to a server, and no account is needed to use the app.',
+  alternates: { canonical: '/privacy' },
+  openGraph: {
+    type: 'article',
+    siteName: 'PDFlow',
+    title: 'Privacy policy: your PDFs stay on your iPhone | PDFlow',
+    description: 'How PDFlow handles your data: every PDF is processed on your iPhone, nothing is uploaded to a server, and no account is needed to use the app.',
+    url: '/privacy',
+    images: [{ url: '/icon.png', width: 1024, height: 1024 }],
+  },
 }
 
 export default function PrivacyPolicy() {

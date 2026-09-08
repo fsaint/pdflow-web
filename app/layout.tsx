@@ -14,8 +14,16 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
+    type: 'website',
     siteName: 'PDFlow',
+    url: '/',
     images: [{ url: '/icon.png', width: 1024, height: 1024 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'PDFlow — PDF Editor for iPhone',
+    description: 'Merge, compress, split, rotate and protect PDFs on iPhone. No subscription. One-time payment. Works offline.',
+    images: ['/icon.png'],
   },
 }
 

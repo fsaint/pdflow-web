@@ -4,6 +4,15 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'PDFlow — PDF Editor for iPhone | No Subscription',
   description: 'Merge, compress, split, rotate, unlock and protect PDFs on iPhone. One-time payment. No subscription. Works completely offline.',
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    siteName: 'PDFlow',
+    title: 'PDFlow — PDF Editor for iPhone | No Subscription',
+    description: 'Merge, compress, split, rotate, unlock and protect PDFs on iPhone. One-time payment. No subscription. Works completely offline.',
+    url: '/',
+    images: [{ url: '/icon.png', width: 1024, height: 1024 }],
+  },
 }
 
 const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'

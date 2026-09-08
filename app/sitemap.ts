@@ -20,5 +20,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     ...featurePages,
+    {
+      url: `${base}/support`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.4,
+    },
+    {
+      url: `${base}/privacy`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
+    },
   ]
 }

@@ -18,13 +18,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: page.meta.title,
     description: page.meta.meta,
-    alternates: { canonical: `https://pdflow.pro/${slug}` },
+    alternates: { canonical: `/${slug}` },
     openGraph: {
       title: page.meta.title,
       description: page.meta.meta,
-      url: `https://pdflow.pro/${slug}`,
+      url: `/${slug}`,
       siteName: 'PDFlow',
       type: 'article',
+      images: [{ url: '/icon.png', width: 1024, height: 1024 }],
     },
   }
 }

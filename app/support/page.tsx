@@ -1,8 +1,17 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Support — PDFlow',
-  description: 'Get help with PDFlow — PDF Editor for iPhone.',
+  title: 'Support and answers for the PDF editor | PDFlow',
+  description: 'Answers to the questions people ask about PDFlow for iPhone: working offline, the one time payment, where your files go, and how to reach us.',
+  alternates: { canonical: '/support' },
+  openGraph: {
+    type: 'article',
+    siteName: 'PDFlow',
+    title: 'Support and answers for the PDF editor | PDFlow',
+    description: 'Answers to the questions people ask about PDFlow for iPhone: working offline, the one time payment, where your files go, and how to reach us.',
+    url: '/support',
+    images: [{ url: '/icon.png', width: 1024, height: 1024 }],
+  },
 }
 
 const faqs = [
