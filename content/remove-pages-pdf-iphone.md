@@ -14,7 +14,7 @@ Need to remove a page from a PDF on your iPhone? Whether it's a blank page, a co
 
 This guide covers the built-in iOS method (free, no app needed) and PDFlow (faster, more control, one-time purchase).
 
-**Quick answer:** Open PDFlow → tap Remove → select the pages to delete → export. Done in seconds. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Remove → select the pages to delete → export. Done in seconds. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -49,7 +49,7 @@ Tap **Delete** to remove the selected pages. PDFlow processes the changes on-dev
 
 The original file is untouched — PDFlow always exports as a new file.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -94,7 +94,7 @@ For removing one or two pages from a short PDF, the built-in method is fine. For
 
 For PDFs longer than 8–10 pages or when removing multiple pages, PDFlow's grid and multi-select save significant time.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -140,7 +140,7 @@ PDFlow is a one-time purchase:
 
 For anyone who regularly cleans up PDFs on their iPhone, PDFlow pays for itself immediately.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

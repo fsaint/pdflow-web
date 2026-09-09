@@ -14,7 +14,7 @@ Locked PDF on your iPhone? If you know the password, you can remove it permanent
 
 This guide explains exactly how to unlock a PDF on iPhone using PDFlow, what the built-in iOS options can and can't do, and answers the most common questions about PDF passwords.
 
-**Quick answer:** Open PDFlow → tap Unlock → enter the password → export a clean, password-free PDF. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Unlock → enter the password → export a clean, password-free PDF. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -49,7 +49,7 @@ Tap **Unlock**. PDFlow removes the password from the file and presents the expor
 
 The exported PDF opens freely — no password required, no restrictions. You can now edit, compress, merge, or share it without being prompted for a password each time.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -84,7 +84,7 @@ A password that restricts what you can **do** with an open PDF — printing, cop
 ### What PDFlow Cannot Do
 PDFlow cannot crack or bypass passwords you don't know. If you've lost the password to a PDF you own, the most reliable path is to contact whoever sent you the document and request an unlocked version.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -130,7 +130,7 @@ PDFlow is different:
 
 If you regularly receive password-protected PDFs — from your bank, employer, or accountant — PDFlow is the private, permanent solution.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

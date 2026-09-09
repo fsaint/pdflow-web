@@ -12,7 +12,7 @@ schema: HowTo
 
 Need to merge PDF files on your iPhone right now? You have two options: use Apple's built-in Files app (free but limited) or use a dedicated app like PDFlow. This guide covers both — step by step — so you can combine your PDFs in under a minute.
 
-**The short answer:** PDFlow merges PDFs in 3 taps. No subscription, no account, no internet required. One-time purchase. [Download PDFlow on the App Store →](#)
+**The short answer:** PDFlow merges PDFs in 3 taps. No subscription, no account, no internet required. One-time purchase. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -52,7 +52,7 @@ Tap **Merge**. PDFlow combines the files instantly on your device. When done, ta
 
 That's it. Three taps.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -96,7 +96,7 @@ iOS will combine the selected files into a new PDF saved in the same folder. The
 
 If you hit these limitations, PDFlow is the direct fix.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -138,7 +138,7 @@ PDFlow works differently:
 
 PDFlow is built for people who need reliable PDF tools without a subscription dragging on their budget every month.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

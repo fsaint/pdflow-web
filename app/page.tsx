@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { APP_STORE_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'PDFlow — PDF Editor for iPhone | No Subscription',
@@ -14,8 +15,6 @@ export const metadata: Metadata = {
     images: [{ url: '/icon.png', width: 1024, height: 1024 }],
   },
 }
-
-const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'
 
 const features = [
   { slug: 'merge-pdf-iphone', label: 'Merge PDF', icon: '⊕', desc: 'Combine multiple PDFs into one' },
@@ -45,6 +44,9 @@ export default function Home() {
           </p>
           <a
             href={APP_STORE_URL}
+            data-cta
+            data-position="hero"
+            data-plan="app-store"
             className="inline-block bg-white text-black font-semibold px-8 py-4 rounded-full text-lg hover:bg-gray-100 transition-colors"
           >
             Download Free on the App Store
@@ -106,6 +108,9 @@ export default function Home() {
           <p className="text-blue-100 mb-8 text-lg">PDFlow does everything you need — merge, compress, split, rotate, protect — for a single one-time price.</p>
           <a
             href={APP_STORE_URL}
+            data-cta
+            data-position="pricing"
+            data-plan="app-store"
             className="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-full text-lg hover:bg-blue-50 transition-colors"
           >
             Download PDFlow Free

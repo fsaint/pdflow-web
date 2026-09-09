@@ -14,7 +14,7 @@ You can do a lot more to a PDF on your iPhone than most people realize. Merge fi
 
 This guide covers everything: what iOS can do natively for free, and where a dedicated app like PDFlow fills the gaps — without a subscription.
 
-**PDFlow is a one-time purchase.** No monthly fee. No account. Works offline. [Download on the App Store →](#)
+**PDFlow is a one-time purchase.** No monthly fee. No account. Works offline. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download on the App Store →</a>
 
 ---
 
@@ -142,7 +142,7 @@ Remove password protection from any PDF you own. Works on user passwords and own
 Converts every PDF page to an individual image file. Choose JPG (smaller, great for sharing) or PNG (lossless, best for text). All pages processed at once.
 → [Full guide: How to Convert PDF to Images on iPhone](/pdf-to-image-iphone)
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -219,7 +219,7 @@ Yes. PDFlow runs natively on both iPhone and iPad, and takes advantage of the la
 
 **Bottom line:** If you need to change the text inside PDFs, PDF Expert or Adobe Acrobat are the tools — at subscription prices. If you need to work with PDF pages and files — merge, split, compress, organize, secure — PDFlow does everything at a one-time price.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

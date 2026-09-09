@@ -14,7 +14,7 @@ Got a PDF with sideways or upside-down pages? Rotating your iPhone only changes 
 
 This guide shows you how to rotate PDF pages permanently using PDFlow, and covers what the built-in iOS tools can and can't do.
 
-**Quick answer:** Open PDFlow → tap Rotate → select pages and direction → export. Pages are fixed permanently in the file. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Rotate → select pages and direction → export. Pages are fixed permanently in the file. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -55,7 +55,7 @@ Tap **Done**. PDFlow saves the rotation into the PDF file structure. Tap **Share
 
 The exported PDF opens correctly in every app — no more sideways pages.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -117,7 +117,7 @@ Alternatively, on some iOS versions:
 | Works with Google Drive files | No | Yes |
 | Offline | Yes | Yes |
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -162,7 +162,7 @@ PDFlow is a one-time purchase that does it properly:
 - **Completely offline** — no upload, no account, no server
 - **Full toolkit included** — rotate, merge, split, compress, reorder, remove pages, protect, unlock, convert to images — one app, one payment
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

@@ -14,7 +14,7 @@ Sending a contract, tax form, or personal document? Adding a password before you
 
 This guide covers PDFlow (full control, one-time purchase) and the built-in iOS method (free but with notable limitations).
 
-**Quick answer:** Open PDFlow → tap Protect → set your password → export a locked PDF. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Protect → set your password → export a locked PDF. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -52,7 +52,7 @@ Tap **Protect**. PDFlow encrypts the file on-device using AES encryption — the
 
 The exported PDF requires the password to open in any app, on any device.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -101,7 +101,7 @@ A lock icon appears on the PDF thumbnail confirming it is now password protected
 | Works on email attachments | No — must save first | Yes |
 | Offline | Yes | Yes |
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -165,7 +165,7 @@ PDFlow protects on-device with a one-time purchase:
 - **No account required** — open, protect, done
 - **Full toolkit included** — protect, unlock, merge, split, compress, reorder, remove pages, rotate, convert to images — one app, one payment
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

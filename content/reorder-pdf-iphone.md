@@ -14,7 +14,7 @@ Need to rearrange the pages in a PDF on your iPhone? Whether you merged files in
 
 This guide covers two methods: the built-in iOS Preview approach (free, works for simple cases) and PDFlow (faster, more control, one-time purchase).
 
-**Quick answer:** Open PDFlow → tap Reorder → drag pages into the correct order → export. Done in under a minute. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Reorder → drag pages into the correct order → export. Done in under a minute. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -49,7 +49,7 @@ When the page order looks right, tap **Done**. PDFlow saves the new order and pr
 
 The output is a clean PDF with your pages in the new order. File quality is identical to the original — no re-rendering, no compression.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -97,7 +97,7 @@ The file is saved in place — the original is overwritten. If you want to keep 
 
 For PDFs with more than 8–10 pages, the horizontal strip in iOS Preview becomes difficult to navigate. PDFlow's grid view lets you see the whole document and drag pages across longer distances with far less scrolling.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -140,7 +140,7 @@ What you get:
 
 If you regularly work with PDFs on your iPhone, PDFlow pays for itself the first time you use it instead of signing up for yet another subscription.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

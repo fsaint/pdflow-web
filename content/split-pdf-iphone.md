@@ -14,7 +14,7 @@ Need to pull a few pages out of a large PDF, send just one section of a report, 
 
 This guide covers PDFlow (fastest, most control) and the built-in iOS workaround (free, but indirect).
 
-**Quick answer:** Open PDFlow → tap Split → select the pages or page range to extract → export. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Split → select the pages or page range to extract → export. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -53,7 +53,7 @@ Tap **Split**. PDFlow processes everything on-device instantly. Each output file
 
 The original file is never modified — PDFlow always creates new files.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -99,7 +99,7 @@ This is the built-in iOS method. It uses the Print dialog to save a page range a
 | Works with Google Drive files | No | Yes |
 | Offline | Yes | Yes |
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -157,7 +157,7 @@ PDFlow gives you a dedicated split tool for a one-time purchase:
 - **Completely offline** — no upload, no account, no server
 - **Full toolkit included** — split, merge, compress, reorder, remove pages, rotate, protect, unlock, convert to images — one app, one payment
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

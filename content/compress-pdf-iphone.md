@@ -14,7 +14,7 @@ PDF too large to email? Getting a "file too big" error? You can compress a PDF d
 
 This guide covers two methods: Apple's built-in compression tool (free, limited control) and PDFlow (precise compression levels, one-time purchase).
 
-**Quick answer:** Open PDFlow → tap Compress → choose your compression level → export. File size reduced in seconds. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap Compress → choose your compression level → export. File size reduced in seconds. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -52,7 +52,7 @@ The estimated output size updates as you switch levels, so you can make an infor
 
 Tap **Compress**. PDFlow processes the file entirely on your device — nothing is uploaded anywhere. Tap **Share** to save to Files, AirDrop, email, or open in any other app.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -152,7 +152,7 @@ PDFlow compresses on-device with a one-time purchase:
 - **No daily limits** — compress as many PDFs as you need
 - **Full PDF toolkit included** — compress, merge, split, reorder, remove pages, rotate, protect, unlock, convert to images — one app, one payment
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

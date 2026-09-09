@@ -14,7 +14,7 @@ Need to share a PDF as images, post pages to social media, or use a PDF graphic 
 
 This guide covers PDFlow (fastest, all pages at once, one-time purchase) and the free iOS Shortcuts workaround.
 
-**Quick answer:** Open PDFlow → tap To Images → choose JPG or PNG → export all pages as images instantly. [Download PDFlow on the App Store →](#)
+**Quick answer:** Open PDFlow → tap To Images → choose JPG or PNG → export all pages as images instantly. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
 ---
 
@@ -53,7 +53,7 @@ Tap **Convert**. PDFlow processes every page on-device and produces one image fi
 
 Each PDF page becomes its own image file, numbered in order.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -96,7 +96,7 @@ Alternatively, search the Shortcuts Gallery for pre-built "PDF to JPG" shortcuts
 
 The Shortcuts method is free but fragile — community shortcuts break when iOS updates, and building your own requires technical comfort. PDFlow is purpose-built and reliable.
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 
@@ -157,7 +157,7 @@ PDFlow converts on-device with a one-time purchase:
 - **No conversion limits** — convert as many PDFs as you need
 - **Full toolkit included** — convert to images, merge, split, compress, reorder, remove pages, rotate, protect, unlock — one app, one payment
 
-**[Download PDFlow on the App Store →](#)**
+**<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
 ---
 

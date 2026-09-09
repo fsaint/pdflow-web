@@ -2,8 +2,7 @@ import { getAllSlugs, getPageContent } from '@/lib/markdown'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-
-const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'
+import { APP_STORE_URL } from '@/lib/constants'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -65,6 +64,9 @@ export default async function Page({ params }: Props) {
         <p className="text-gray-300 mb-6">Free to download. One-time payment to unlock everything. No subscription, ever.</p>
         <a
           href={APP_STORE_URL}
+          data-cta
+          data-position="footer"
+          data-plan="app-store"
           className="inline-block bg-white text-black font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors"
         >
           Download on the App Store

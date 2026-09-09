@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import Link from 'next/link'
+import { APP_STORE_URL } from '@/lib/constants'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,8 +28,6 @@ export const metadata: Metadata = {
     images: ['/icon.png'],
   },
 }
-
-const APP_STORE_URL = 'https://apps.apple.com/app/id6779042750'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -67,6 +66,9 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
             </Link>
             <a
               href={APP_STORE_URL}
+              data-cta
+              data-position="header"
+              data-plan="app-store"
               className="bg-black text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-800 transition-colors"
             >
               Download Free
