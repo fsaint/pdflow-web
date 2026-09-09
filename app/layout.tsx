@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import Link from 'next/link'
 
@@ -33,6 +34,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Script id="mm-posthog" strategy="afterInteractive">
+          {`window.MM = {ids: {}, purchase: null};
+(function () { var q = new URLSearchParams(location.search), u = {};
+  ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"].forEach(function (k) { u[k] = q.get(k) || ""; });
+  window.MM.utm = u; })();
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+// visits, checkout clicks and sign-ups for the marketing machine's funnel: pageviews are automatic,
+// every event carries the campaign properties read from the URL, and no person profile is created
+// for an anonymous reader.
+// The page view is sent from the library's own loaded callback, not from its window load
+// listener: on a page this small, load fires before the async script arrives and the listener
+// never runs, so capture_pageview stays off and the callback sends exactly one page view after
+// the campaign properties are registered.
+posthog.init("phc_suDHFRRpJHHqY5NaAW6emgqSPg8WZ6ZT9nHEt3DYsgsz", { api_host: "https://us.i.posthog.com", person_profiles: "identified_only", capture_pageview: false, capture_pageleave: false, autocapture: false,
+  loaded: function (ph) {
+    var u = (window.MM && window.MM.utm) || {};
+    ph.register({ $utm_source: u.utm_source || "", $utm_medium: u.utm_medium || "", $utm_campaign: u.utm_campaign || "pdflow", $utm_content: u.utm_content || "", $utm_term: u.utm_term || "", product: "pdflow" });
+    ph.capture("$pageview");
+  } });
+function mmWireCtas() {
+  document.querySelectorAll("[data-cta]").forEach(function (el) {
+    el.addEventListener("click", function () { posthog.capture("cta_click", { plan: el.dataset.plan || "", position: el.dataset.position || "", product: "pdflow" }); });
+  });
+}
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mmWireCtas); else mmWireCtas();`}
+        </Script>
         <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
           <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
             <Link href="/" className="font-bold text-lg tracking-tight text-gray-900">
