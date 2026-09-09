@@ -49,7 +49,8 @@ export default function Home() {
           >
             Download Free on the App Store
           </a>
-          <p className="text-gray-500 text-sm mt-4">Free to try · One-time payment · No account required</p>
+          <p className="text-gray-500 text-sm mt-4">$19.99 once, or $2.99 a month</p>
+          <p className="text-gray-500 text-sm mt-1">Free to try · One-time payment · No account required</p>
         </div>
       </section>
 
