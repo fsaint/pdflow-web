@@ -78,7 +78,9 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
 
         <main>{children}</main>
 
-        <footer className="border-t border-gray-200 mt-16 py-10 bg-gray-50">
+        {/* No top margin: every other page ends with its own padding, and the home
+            page's closing band has to meet the footer edge to edge. */}
+        <footer className="border-t border-gray-200 py-10 bg-gray-50">
           <div className="max-w-5xl mx-auto px-4 text-center text-sm text-gray-500">
             <p className="font-semibold text-gray-700 mb-2">PDFlow, the PDF editor for iPhone</p>
             <p className="mb-4">One-time payment. No subscription. Works offline.</p>
