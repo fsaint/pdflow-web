@@ -8,7 +8,7 @@ import { APP_STORE_URL } from '@/lib/constants'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PDFlow — PDF Editor for iPhone',
+  title: 'PDFlow, PDF Editor for iPhone',
   description: 'Merge, compress, split, rotate and protect PDFs on iPhone. No subscription. One-time payment. Works offline.',
   metadataBase: new URL('https://pdflow.pro'),
   icons: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PDFlow — PDF Editor for iPhone',
+    title: 'PDFlow, PDF Editor for iPhone',
     description: 'Merge, compress, split, rotate and protect PDFs on iPhone. No subscription. One-time payment. Works offline.',
     images: ['/icon.png'],
   },
@@ -80,7 +80,7 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
 
         <footer className="border-t border-gray-200 mt-16 py-10 bg-gray-50">
           <div className="max-w-5xl mx-auto px-4 text-center text-sm text-gray-500">
-            <p className="font-semibold text-gray-700 mb-2">PDFlow — PDF Editor for iPhone</p>
+            <p className="font-semibold text-gray-700 mb-2">PDFlow, the PDF editor for iPhone</p>
             <p className="mb-4">One-time payment. No subscription. Works offline.</p>
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6 text-gray-600">
               <Link href="/merge-pdf-iphone" className="hover:text-gray-900">Merge PDF</Link>
