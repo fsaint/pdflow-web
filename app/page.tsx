@@ -94,8 +94,10 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
-      {/* Fold: app icon, the job headline, one button, the price, two proof marks */}
-      <section className="bg-black text-white px-4 pt-12 pb-14 sm:pt-16 sm:pb-[4.5rem]">
+      {/* Fold: app icon, the job headline, one button, the price, two proof marks.
+          Plain Paper: the ground is paper, the ink is the one indigo sampled from the
+          icon, and the icon is the only saturated object on the screen. */}
+      <section className="ruled bg-paper text-ink px-4 pt-14 pb-16 sm:pt-[4.5rem] sm:pb-20 border-b border-rule">
         <div className="max-w-[44rem] mx-auto text-center">
           <Image
             src="/app-icon.png"
@@ -103,40 +105,44 @@ export default function Home() {
             width={96}
             height={96}
             priority
-            className="mx-auto mb-6 h-24 w-24 rounded-[22px] shadow-[0_18px_40px_rgba(37,99,235,0.28)]"
+            className="mx-auto mb-7 h-24 w-24 rounded-[22px]"
           />
-          <p className="text-[#60a5fa] font-medium text-[0.8125rem] tracking-[0.08em] uppercase mb-4">
+          <p className="text-signature font-semibold text-[0.72rem] tracking-[0.2em] uppercase mb-4">
             PDF Editor for iPhone
           </p>
-          <h1 className="text-[2rem] sm:text-[2.75rem] font-bold leading-[1.12] tracking-[-0.02em] mb-5">
+          {/* The serif carries the claim and the italic carries the whole personality
+              budget, which is the right size for this product. */}
+          <h1 className="font-serif text-[2.05rem] sm:text-[2.9rem] font-medium leading-[1.12] tracking-[-0.018em] mb-5 text-signature">
             Merge, compress and protect PDFs on your iPhone.{' '}
             <br className="hidden sm:inline" />
-            They never leave it.
+            <em className="italic font-normal text-ink">They never leave it.</em>
           </h1>
-          <p className="text-gray-300 text-base sm:text-[1.0625rem] leading-[1.65] max-w-[34rem] mx-auto mb-8">
+          <p className="text-muted text-base sm:text-[1.0625rem] leading-[1.7] max-w-[34rem] mx-auto mb-8">
             Nine tools in one app: merge, compress, split, rotate, reorder, remove pages, unlock,
             protect, and export to image. Every one of them runs on the phone in your hand.
           </p>
 
+          <hr className="border-0 border-t border-rule max-w-[33rem] mx-auto mb-8" />
+
           <AppStoreBadge position="hero" />
-          <p className="text-base font-semibold text-white mt-4 mb-1">{PRICE_LINE}</p>
-          <p className="text-gray-500 text-sm">Free to try &middot; No account required</p>
+          <p className="font-serif text-[1.32rem] font-semibold text-ink mt-4 mb-1">{PRICE_LINE}</p>
+          <p className="text-muted text-sm">Free to try &middot; No account required</p>
 
           <ul className="list-none mt-10 flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
-            <li className="flex items-center gap-3 text-left rounded-2xl border border-white/15 bg-white/5 px-[1.125rem] py-3.5 sm:min-w-[15.5rem]">
-              <span className="text-[#60a5fa] shrink-0" aria-hidden="true">
+            <li className="fold flex items-center gap-3 text-left px-[1.125rem] py-4 sm:min-w-[15.5rem]">
+              <span className="text-signature shrink-0" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[26px] w-[26px]">
                   <path d="M12 2.5 4.5 5.5v6c0 4.6 3.1 8.6 7.5 10 4.4-1.4 7.5-5.4 7.5-10v-6Z" />
                   <path d="m9 12 2 2 4-4" />
                 </svg>
               </span>
               <span className="flex flex-col">
-                <strong className="text-[0.9375rem] font-semibold text-white">Stays on your iPhone</strong>
-                <span className="text-[0.8125rem] text-gray-400">No upload, no server, no account</span>
+                <strong className="font-serif text-[1.0625rem] font-semibold text-signature">Stays on your iPhone</strong>
+                <span className="text-[0.8125rem] text-muted">No upload, no server, no account</span>
               </span>
             </li>
-            <li className="flex items-center gap-3 text-left rounded-2xl border border-white/15 bg-white/5 px-[1.125rem] py-3.5 sm:min-w-[15.5rem]">
-              <span className="text-[#60a5fa] shrink-0" aria-hidden="true">
+            <li className="fold flex items-center gap-3 text-left px-[1.125rem] py-4 sm:min-w-[15.5rem]">
+              <span className="text-signature shrink-0" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[26px] w-[26px]">
                   <circle cx="12" cy="12" r="9" />
                   <path d="M12 7v10" />
@@ -144,8 +150,8 @@ export default function Home() {
                 </svg>
               </span>
               <span className="flex flex-col">
-                <strong className="text-[0.9375rem] font-semibold text-white">$19.99, one payment</strong>
-                <span className="text-[0.8125rem] text-gray-400">Lifetime access, nothing renews</span>
+                <strong className="font-serif text-[1.0625rem] font-semibold text-signature">$19.99, one payment</strong>
+                <span className="text-[0.8125rem] text-muted">Lifetime access, nothing renews</span>
               </span>
             </li>
           </ul>
@@ -153,28 +159,28 @@ export default function Home() {
       </section>
 
       {/* The on-device promise: claim, mechanism, consequence */}
-      <section className="px-4 py-[4.5rem] bg-gray-50 border-b border-gray-100">
+      <section className="px-4 py-[4.5rem] bg-canvas border-b border-rule">
         <div className="max-w-[42rem] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-[-0.02em] leading-[1.2] mb-4">
+          <h2 className="font-serif text-[1.85rem] sm:text-[2.35rem] font-medium text-signature tracking-[-0.02em] leading-[1.16] mb-4">
             Your PDFs never leave your iPhone.
           </h2>
-          <p className="text-gray-600 text-base sm:text-[1.0625rem] leading-[1.7] mb-5">
+          <p className="text-muted text-base sm:text-[1.0625rem] leading-[1.72] mb-6">
             Every tool runs on the device. Nothing is uploaded, there is no server to upload it to,
             and no account is required to use any of the nine tools.
           </p>
-          <p className="text-gray-900 text-base sm:text-[1.0625rem] leading-[1.7] font-semibold border-l-[3px] border-blue-600 pl-4">
-            Turn on Airplane Mode and merge a file. It still works. That is the whole proof.
+          <p className="font-serif text-ink text-[1.2rem] sm:text-[1.4rem] leading-[1.62] font-medium border-l border-signature pl-5">
+            Turn on Airplane Mode and merge a file. <span className="hl">It still works.</span> That is the whole proof.
           </p>
         </div>
       </section>
 
       {/* Nine tools, labelled */}
-      <section className="px-4 py-16">
+      <section className="ruled px-4 py-16 bg-paper">
         <div className="max-w-[62rem] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-[-0.02em] leading-[1.2] mb-4 text-center">
+          <h2 className="font-serif text-[1.85rem] sm:text-[2.35rem] font-medium text-signature tracking-[-0.02em] leading-[1.16] mb-4 text-center">
             Nine tools, one app
           </h2>
-          <p className="text-center text-gray-500 mb-10">
+          <p className="text-center text-muted mb-10">
             Each one opens a file, does the job, and hands it back. No switching between apps.
           </p>
           {/* px breakpoints on both, so Tailwind orders 640 before 900 in the sheet */}
@@ -183,13 +189,13 @@ export default function Home() {
               <Link
                 key={t.slug}
                 href={`/${t.slug}`}
-                className="border border-gray-200 rounded-2xl p-5 bg-white transition-all hover:border-blue-300 hover:shadow-[0_6px_18px_rgba(15,23,42,0.06)]"
+                className="fold p-5 transition-colors hover:border-signature"
               >
-                <span className="inline-block text-xs font-semibold tracking-[0.1em] text-blue-300 mb-2.5">
+                <span className="inline-block font-serif text-sm font-semibold tracking-[0.06em] text-muted mb-2.5">
                   {t.n}
                 </span>
-                <h3 className="text-base font-semibold text-gray-900 mb-1">{t.label}</h3>
-                <p className="text-sm text-gray-500 leading-[1.5]">{t.desc}</p>
+                <h3 className="font-serif text-[1.15rem] font-semibold text-signature mb-1">{t.label}</h3>
+                <p className="text-sm text-muted leading-[1.55]">{t.desc}</p>
               </Link>
             ))}
           </div>
@@ -197,58 +203,59 @@ export default function Home() {
       </section>
 
       {/* What it costs */}
-      <section className="px-4 py-16 bg-gray-50">
+      <section className="px-4 py-16 bg-canvas border-t border-rule">
         <div className="max-w-[46rem] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-[-0.02em] leading-[1.2] text-center">
+          <h2 className="font-serif text-[1.85rem] sm:text-[2.35rem] font-medium text-signature tracking-[-0.02em] leading-[1.16] text-center">
             What it costs
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 mb-5">
-            <div className="bg-white border border-blue-600 rounded-2xl p-6 text-center shadow-[0_8px_24px_rgba(37,99,235,0.1)]">
-              <p className="text-sm font-semibold text-gray-500 mb-2">PDFlow Lifetime</p>
-              <p className="text-[2rem] font-bold text-gray-900 tracking-[-0.02em] mb-2">$19.99</p>
-              <p className="text-sm text-gray-500">One payment, full access, no renewal.</p>
+            <div className="fold border-signature p-6 text-center">
+              <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted mb-3">PDFlow Lifetime</p>
+              <p className="font-serif text-[2.4rem] font-semibold text-signature tracking-[-0.02em] mb-2 leading-none">$19.99</p>
+              <p className="text-sm text-muted">One payment, full access, no renewal.</p>
             </div>
-            <div className="bg-white border border-gray-200 rounded-2xl p-6 text-center">
-              <p className="text-sm font-semibold text-gray-500 mb-2">PDFlow One Month</p>
-              <p className="text-[2rem] font-bold text-gray-900 tracking-[-0.02em] mb-2">$2.99</p>
-              <p className="text-sm text-gray-500">30 days. It does not auto-renew.</p>
+            <div className="fold p-6 text-center">
+              <p className="text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted mb-3">PDFlow One Month</p>
+              <p className="font-serif text-[2.4rem] font-semibold text-ink tracking-[-0.02em] mb-2 leading-none">$2.99</p>
+              <p className="text-sm text-muted">30 days. It does not auto-renew.</p>
             </div>
           </div>
-          <p className="text-center text-gray-500 text-[0.9375rem]">
+          <p className="text-center text-muted text-[0.9375rem]">
             Try all nine tools free before you pay for either one.
           </p>
         </div>
       </section>
 
       {/* Closing band */}
-      <section className="px-4 py-16 bg-blue-600 text-white text-center">
+      {/* The one indigo field on the page, and it is the last thing read. */}
+      <section className="px-4 py-16 bg-signature text-paper text-center">
         <div className="max-w-[36rem] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-[-0.02em] mb-3">
+          <h2 className="font-serif text-[1.85rem] sm:text-[2.35rem] font-medium text-paper tracking-[-0.02em] leading-[1.16] mb-3">
             Stop paying monthly for PDF tools
           </h2>
-          <p className="text-blue-100 text-base sm:text-[1.0625rem] mb-7">
+          <p className="text-blue-200 text-base sm:text-[1.0625rem] mb-8">
             PDFlow does the job on your phone, once, for a price you pay once.
           </p>
           <AppStoreBadge position="pricing" />
-          <p className="text-base font-semibold text-white mt-4">{PRICE_LINE}</p>
+          <p className="font-serif text-[1.32rem] font-semibold text-paper mt-4">{PRICE_LINE}</p>
         </div>
       </section>
 
       {/* Desktop handoff: scan to install on the phone. Hidden below 900px. */}
       <aside
         aria-label="Install PDFlow on your iPhone"
-        className="hidden min-[900px]:flex fixed left-5 bottom-5 z-[60] items-center gap-3.5 bg-white border border-gray-200 rounded-2xl p-3.5 shadow-[0_12px_32px_rgba(15,23,42,0.14)] max-w-[19rem]"
+        className="fold hidden min-[900px]:flex fixed left-5 bottom-5 z-[60] items-center gap-3.5 p-3.5 max-w-[19rem]"
       >
         <Image
           src="/qr-appstore.png"
           alt="QR code linking to the PDFlow App Store page"
           width={88}
           height={88}
-          className="h-[88px] w-[88px] rounded-lg shrink-0"
+          className="h-[88px] w-[88px] shrink-0"
         />
         <div className="flex flex-col gap-1">
-          <strong className="text-[0.9375rem] text-gray-900">Get PDFlow</strong>
-          <span className="text-[0.8125rem] text-gray-500 leading-[1.45]">
+          <strong className="font-serif text-[1.0625rem] text-signature">Get PDFlow</strong>
+          <span className="text-[0.8125rem] text-muted leading-[1.45]">
             Scan this with your iPhone camera to install the app.
           </span>
         </div>

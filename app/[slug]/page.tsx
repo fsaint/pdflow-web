@@ -59,15 +59,15 @@ export default async function Page({ params }: Props) {
       />
 
       {/* CTA */}
-      <div className="mt-12 bg-black text-white rounded-2xl p-8 text-center">
-        <h2 className="text-2xl font-bold mb-3">Ready to try PDFlow?</h2>
-        <p className="text-gray-300 mb-6">Free to download. One-time payment to unlock everything. No subscription, ever.</p>
+      <div className="mt-12 bg-signature text-paper p-8 text-center">
+        <h2 className="font-serif text-[1.7rem] font-medium text-paper mb-3">Ready to try PDFlow?</h2>
+        <p className="text-blue-200 mb-6">Free to download. One-time payment to unlock everything. No subscription, ever.</p>
         <a
           href={APP_STORE_URL}
           data-cta
           data-position="footer"
           data-plan="app-store"
-          className="inline-block bg-white text-black font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors"
+          className="inline-block bg-paper text-signature font-semibold px-8 py-3 hover:opacity-90 transition-opacity"
         >
           Download on the App Store
         </a>
@@ -94,7 +94,7 @@ export default async function Page({ params }: Props) {
               <Link
                 key={l.slug}
                 href={`/${l.slug}`}
-                className="text-sm bg-gray-100 text-gray-700 px-3 py-1 rounded-full hover:bg-gray-200 transition-colors"
+                className="text-sm border border-rule bg-white text-ink px-3 py-1 hover:border-signature hover:text-signature transition-colors"
               >
                 {l.label}
               </Link>

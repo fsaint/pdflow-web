@@ -1,13 +1,157 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Plain Paper, the PDFlow brand.
+   Felipe approved the direction on 2026-09-10; the record is the brand block on the
+   product doc at https://mm.btv.pw/api/products/pdflow/brand, and the working document
+   is marketing_machine/products/pdflow/07-brand.md.
+
+   A clean sheet of paper with one indigo pen on it, so the app icon is the only
+   saturated thing a visitor sees and the page looks like the tool rather than like an
+   ad for the tool. The indigo is sampled from the icon's own field. The cream is the
+   canvas colour the shipped app draws on, so the page, the screenshots and the app
+   finally agree.
+
+   The tokens below are the whole system. The Tailwind grey and blue scales are remapped
+   onto them so every page that was written in `text-gray-500` or `bg-blue-600` moves
+   into the brand without a word of its copy changing. */
+
+@theme {
+  /* the six colours, and nothing else */
+  --color-paper: #faf9f5;        /* the page */
+  --color-canvas: #f5f0e8;       /* the app's own canvas, for the second ground */
+  --color-ink: #1b1830;          /* body text, 16.3:1 on paper */
+  --color-signature: #270c71;    /* the icon's indigo: every heading, every link */
+  --color-muted: #5a5570;        /* 6.7:1 on paper */
+  --color-highlight: #00f2fe;    /* a highlighter block behind dark text, once a screen */
+  --color-highlight-ink: #14103a;/* the only ink that sits on the highlight, 13.0:1 */
+  --color-rule: #e2ded2;         /* hairlines and folds */
+
+  /* the grey scale, remapped. Nothing here is neutral grey any more: the light end is
+     paper and the app's canvas, the dark end is the ink. */
+  --color-black: #270c71;
+  --color-gray-50: #f5f0e8;
+  --color-gray-100: #efeade;
+  --color-gray-200: #e2ded2;
+  --color-gray-300: #d3cec0;
+  --color-gray-400: #8b8698;
+  --color-gray-500: #5a5570;
+  --color-gray-600: #4b4663;
+  --color-gray-700: #35304a;
+  --color-gray-800: #262238;
+  --color-gray-900: #1b1830;
+
+  /* the blue scale is the one indigo, so a `text-blue-600` written last week is the
+     signature colour today and no page needs its classes rewritten. */
+  --color-blue-50: #f2f0fa;
+  --color-blue-100: #e0dbf2;
+  --color-blue-200: #c6bee6;
+  --color-blue-300: #a79ddb;
+  --color-blue-400: #7a6cc4;
+  --color-blue-500: #4a2fa0;
+  --color-blue-600: #270c71;
+  --color-blue-700: #200a5e;
+  --color-blue-800: #1a0850;
+  --color-blue-900: #14063f;
+
+  /* the type pairing: a literary serif next to an engineering sans, which is the exact
+     pair of qualities this product claims. A person wrote this, and it is a tool. */
+  --font-sans: var(--font-text), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display), Georgia, "Times New Roman", serif;
+
+  /* never round a corner except the phone and the icon, which carry their own radius as
+     an arbitrary value. Zeroing the scale is how the rule is enforced rather than
+     remembered. */
+  --radius-xs: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-3xl: 0px;
+  --radius-4xl: 0px;
+
+  /* never add a shadow. Depth comes from a hairline and a fold, not from a blur. */
+  --shadow-2xs: none;
+  --shadow-xs: none;
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-xl: none;
+  --shadow-2xl: none;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Everything below sits in a cascade layer on purpose. Unlayered CSS outranks every
+   Tailwind utility, so a default written outside a layer would quietly win against the
+   `text-paper` on the closing band's heading and against a card that wants the indigo
+   border. Base for the defaults, components for the motif. */
+@layer base {
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Headings are the indigo pen. The serif carries every heading and every number, so
+     the numbers this product argues with, 14.4 MB and $19.99, are the best-set thing on
+     the page. */
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+    color: var(--color-signature);
+    letter-spacing: -0.018em;
+  }
 }
+
+@layer components {
+  /* the motif: a page corner fold and a ruled margin */
+  .fold {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid var(--color-rule);
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+  }
+  .fold::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(225deg, var(--color-rule) 0 50%, transparent 50%);
+  }
+  .fold-canvas { background: #fdfcf9; }
+
+  /* the left margin hairline, the way it runs down a sheet of ruled paper. Desktop only:
+     on a phone the page is the margin. */
+  .ruled { position: relative; }
+  @media (min-width: 900px) {
+    .ruled::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: max(1.5rem, calc(50% - 34rem));
+      width: 1px;
+      background: var(--color-rule);
+    }
+  }
+
+  /* the whole colour budget: one solid block of cyan behind dark text, once per screen */
+  .hl {
+    background: var(--color-highlight);
+    color: var(--color-highlight-ink);
+    padding: 1px 7px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+}
+
+/* the article pages: the serif for headings, the indigo for links, the hairline for
+   table rules. Their words are untouched. */
+.prose :where(h1, h2, h3, h4) {
+  font-family: var(--font-serif);
+  color: var(--color-signature);
+}
+.prose :where(a) { color: var(--color-signature); }
+.prose :where(th, td) { border-color: var(--color-rule); }

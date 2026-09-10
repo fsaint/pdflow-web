@@ -52,31 +52,31 @@ const faqs = [
 export default function Support() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">Support</h1>
+      <h1 className="text-3xl font-medium text-signature mb-2">Support</h1>
       <p className="text-gray-500 mb-10">
         Need help with PDFlow? Start with the FAQ below, or contact us directly.
       </p>
 
       <section className="mb-14">
-        <h2 className="text-xl font-semibold text-gray-900 mb-6">Frequently Asked Questions</h2>
+        <h2 className="text-xl font-medium text-signature mb-6">Frequently Asked Questions</h2>
         <div className="space-y-6">
           {faqs.map((faq, i) => (
             <div key={i} className="border-b border-gray-100 pb-6">
-              <h3 className="font-semibold text-gray-900 mb-1">{faq.q}</h3>
+              <h3 className="font-medium text-signature mb-1">{faq.q}</h3>
               <p className="text-gray-600 text-sm">{faq.a}</p>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="bg-gray-50 rounded-2xl p-8 text-center">
-        <h2 className="text-xl font-semibold text-gray-900 mb-2">Still need help?</h2>
+      <section className="fold fold-canvas p-8 text-center">
+        <h2 className="text-xl font-medium text-signature mb-2">Still need help?</h2>
         <p className="text-gray-500 mb-6 text-sm">
           Send us an email and we&apos;ll get back to you within 1 business day.
         </p>
         <a
           href="mailto:support@pdflow.pro"
-          className="inline-block bg-black text-white font-medium px-6 py-3 rounded-full hover:bg-gray-800 transition-colors"
+          className="inline-block bg-signature text-paper font-medium px-6 py-3 hover:opacity-90 transition-opacity"
         >
           Email Support
         </a>

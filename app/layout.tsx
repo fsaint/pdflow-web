@@ -1,11 +1,25 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { IBM_Plex_Sans, Newsreader } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import Link from 'next/link'
 import { APP_STORE_URL } from '@/lib/constants'
 
-const inter = Inter({ subsets: ['latin'] })
+// Plain Paper's type pairing, approved 2026-09-10. Newsreader carries every heading
+// and every number; IBM Plex Sans carries the body, the labels and everything inside
+// the phone. Both are the families named in the brand block on the product doc.
+const display = Newsreader({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-display',
+})
+
+const text = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  display: 'swap',
+  variable: '--font-text',
+})
 
 export const metadata: Metadata = {
   title: 'PDFlow, PDF Editor for iPhone',
@@ -31,8 +45,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={`${display.variable} ${text.variable}`}>
+      <body>
         <Script id="mm-posthog" strategy="afterInteractive">
           {`window.MM = {ids: {}, purchase: null};
 (function () { var q = new URLSearchParams(location.search), u = {};
@@ -59,17 +73,28 @@ function mmWireCtas() {
 }
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mmWireCtas); else mmWireCtas();`}
         </Script>
-        <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
-          <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-            <Link href="/" className="font-bold text-lg tracking-tight text-gray-900">
-              PDFlow
+        {/* The mark is the brand's own: a folded page with a flow stroke through it, then
+            the name with `low` in the serif italic and a short rule under `PDF`. It sits on
+            paper, never on a dark ground, and it is never recoloured. */}
+        <header className="border-b border-rule bg-paper sticky top-0 z-50">
+          <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+            <Link href="/" aria-label="PDFlow, home" className="inline-flex items-center">
+              <svg width="150" height="32" viewBox="0 0 150 32" role="img" aria-label="PDFlow" className="h-8 w-auto">
+                <path d="M3 6 h15 l6 6 v14 H3 Z" fill="none" stroke="#270C71" strokeWidth="1.8" strokeLinejoin="round" />
+                <path d="M18 6 v6 h6" fill="none" stroke="#270C71" strokeWidth="1.8" strokeLinejoin="round" />
+                <path d="M8 20 c4 -6 7 2 11 -4" fill="none" stroke="#270C71" strokeWidth="1.8" strokeLinecap="round" />
+                <text x="34" y="24" fontFamily="var(--font-display), Georgia, serif" fontSize="24" fontWeight="600" letterSpacing="-.4" fill="#270C71">
+                  PDF<tspan fontStyle="italic" fontWeight="400">low</tspan>
+                </text>
+                <rect x="34" y="27.5" width="42" height="1.6" fill="#270C71" />
+              </svg>
             </Link>
             <a
               href={APP_STORE_URL}
               data-cta
               data-position="header"
               data-plan="app-store"
-              className="bg-black text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-800 transition-colors"
+              className="text-[0.84rem] font-semibold tracking-[0.02em] text-signature border-b-2 border-signature pb-0.5 hover:opacity-70 transition-opacity"
             >
               Download Free
             </a>
@@ -80,26 +105,26 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
 
         {/* No top margin: every other page ends with its own padding, and the home
             page's closing band has to meet the footer edge to edge. */}
-        <footer className="border-t border-gray-200 py-10 bg-gray-50">
-          <div className="max-w-5xl mx-auto px-4 text-center text-sm text-gray-500">
-            <p className="font-semibold text-gray-700 mb-2">PDFlow, the PDF editor for iPhone</p>
+        <footer className="border-t border-rule py-10 bg-canvas">
+          <div className="max-w-5xl mx-auto px-4 text-center text-sm text-muted">
+            <p className="font-serif text-[1.0625rem] text-signature mb-2">PDFlow, the PDF editor for iPhone</p>
             <p className="mb-4">One-time payment. No subscription. Works offline.</p>
-            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6 text-gray-600">
-              <Link href="/merge-pdf-iphone" className="hover:text-gray-900">Merge PDF</Link>
-              <Link href="/compress-pdf-iphone" className="hover:text-gray-900">Compress PDF</Link>
-              <Link href="/split-pdf-iphone" className="hover:text-gray-900">Split PDF</Link>
-              <Link href="/rotate-pdf-iphone" className="hover:text-gray-900">Rotate PDF</Link>
-              <Link href="/unlock-pdf-iphone" className="hover:text-gray-900">Unlock PDF</Link>
-              <Link href="/protect-pdf-iphone" className="hover:text-gray-900">Protect PDF</Link>
-              <Link href="/reorder-pdf-iphone" className="hover:text-gray-900">Reorder Pages</Link>
-              <Link href="/remove-pages-pdf-iphone" className="hover:text-gray-900">Remove Pages</Link>
-              <Link href="/pdf-to-image-iphone" className="hover:text-gray-900">PDF to Image</Link>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6 text-muted">
+              <Link href="/merge-pdf-iphone" className="hover:text-signature">Merge PDF</Link>
+              <Link href="/compress-pdf-iphone" className="hover:text-signature">Compress PDF</Link>
+              <Link href="/split-pdf-iphone" className="hover:text-signature">Split PDF</Link>
+              <Link href="/rotate-pdf-iphone" className="hover:text-signature">Rotate PDF</Link>
+              <Link href="/unlock-pdf-iphone" className="hover:text-signature">Unlock PDF</Link>
+              <Link href="/protect-pdf-iphone" className="hover:text-signature">Protect PDF</Link>
+              <Link href="/reorder-pdf-iphone" className="hover:text-signature">Reorder Pages</Link>
+              <Link href="/remove-pages-pdf-iphone" className="hover:text-signature">Remove Pages</Link>
+              <Link href="/pdf-to-image-iphone" className="hover:text-signature">PDF to Image</Link>
             </div>
-            <div className="flex justify-center gap-6 mb-4 text-xs text-gray-400">
-              <Link href="/privacy" className="hover:text-gray-600">Privacy Policy</Link>
-              <Link href="/support" className="hover:text-gray-600">Support</Link>
+            <div className="flex justify-center gap-6 mb-4 text-xs text-muted">
+              <Link href="/privacy" className="hover:text-signature">Privacy Policy</Link>
+              <Link href="/support" className="hover:text-signature">Support</Link>
             </div>
-            <p className="text-xs text-gray-400">&copy; {new Date().getFullYear()} PDFlow. All rights reserved.</p>
+            <p className="text-xs text-muted">&copy; {new Date().getFullYear()} PDFlow. All rights reserved.</p>
           </div>
         </footer>
       </body>
