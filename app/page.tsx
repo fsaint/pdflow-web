@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { APP_STORE_URL } from '@/lib/constants'
+import { JsonLd } from '@/app/JsonLd'
+import { webSiteSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'PDFlow, PDF Editor for iPhone | No Subscription',
@@ -89,6 +91,8 @@ function AppStoreBadge({ position }: { position: string }) {
 export default function Home() {
   return (
     <div>
+
+      <JsonLd schema={webSiteSchema()} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { JsonLd } from '@/app/JsonLd'
+import { webPageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Support and answers for the PDF editor | PDFlow',
@@ -52,6 +54,8 @@ const faqs = [
 export default function Support() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
+
+      <JsonLd schema={webPageSchema('/support', 'PDFlow support', 'Answers to the questions people ask about PDFlow for iPhone.')} />
       <h1 className="text-3xl font-medium text-signature mb-2">Support</h1>
       <p className="text-gray-500 mb-10">
         Need help with PDFlow? Start with the FAQ below, or contact us directly.

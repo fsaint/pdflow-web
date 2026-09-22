@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { APP_STORE_URL } from '@/lib/constants'
+import { JsonLd } from '@/app/JsonLd'
+import { breadcrumbSchema, guideSchemas } from '@/lib/schema'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -36,6 +38,13 @@ export default async function Page({ params }: Props) {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
+      <JsonLd
+        schema={[
+          ...guideSchemas(slug, page.meta.title, page.meta.meta),
+          breadcrumbSchema(slug, page.meta.primaryKeyword),
+        ]}
+      />
+
       {/* Breadcrumb */}
       <nav className="text-sm text-gray-500 mb-8">
         <Link href="/" className="hover:text-gray-900">PDFlow</Link>

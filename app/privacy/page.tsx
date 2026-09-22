@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { JsonLd } from '@/app/JsonLd'
+import { webPageSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'Privacy policy: your PDFs stay on your iPhone | PDFlow',
@@ -17,6 +19,8 @@ export const metadata: Metadata = {
 export default function PrivacyPolicy() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
+
+      <JsonLd schema={webPageSchema('/privacy', 'PDFlow privacy policy', 'Every PDF is processed on your iPhone and nothing is uploaded to a server.')} />
       <h1 className="text-3xl font-medium text-signature mb-2">Privacy Policy</h1>
       <p className="text-sm text-gray-400 mb-10">Last updated: June 2026</p>
 
