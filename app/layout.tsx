@@ -64,10 +64,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 // listener: on a page this small, load fires before the async script arrives and the listener
 // never runs, so capture_pageview stays off and the callback sends exactly one page view after
 // the campaign properties are registered.
-posthog.init("phc_suDHFRRpJHHqY5NaAW6emgqSPg8WZ6ZT9nHEt3DYsgsz", { api_host: "https://us.i.posthog.com", person_profiles: "identified_only", capture_pageview: false, capture_pageleave: false, autocapture: false,
+posthog.init("phc_yHsD5BgvttTdJFxwPWt22UBqWYLCHZqZBN8BgdrvQUSS", { api_host: "https://us.i.posthog.com", person_profiles: "identified_only", capture_pageview: false, capture_pageleave: false, autocapture: false,
   loaded: function (ph) {
     var u = (window.MM && window.MM.utm) || {};
-    ph.register({ $utm_source: u.utm_source || "", $utm_medium: u.utm_medium || "", $utm_campaign: u.utm_campaign || "pdflow", $utm_content: u.utm_content || "", $utm_term: u.utm_term || "", product: "pdflow" });
+    ph.register({ $utm_source: u.utm_source || "", $utm_medium: u.utm_medium || "", $utm_campaign: u.utm_campaign || "pdflow", $utm_content: u.utm_content || "", $utm_term: u.utm_term || "", product: "pdflow", platform: "web" });
     ph.capture("$pageview");
   } });
 function mmWireCtas() {
