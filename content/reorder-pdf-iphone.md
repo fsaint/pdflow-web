@@ -8,7 +8,7 @@ word count target: 1,200-1,500
 schema: HowTo
 --&gt;
 
-# How to Reorder PDF Pages on iPhone (Drag and Drop — No Subscription)
+# How to Reorder PDF Pages on iPhone (Drag and Drop, No Subscription)
 
 Need to rearrange the pages in a PDF on your iPhone? Whether you merged files in the wrong order or received a document with scrambled pages, you can fix it directly on your iPhone — no desktop required.
 

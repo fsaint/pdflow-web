@@ -8,7 +8,7 @@ word count target: 1,200-1,500
 schema: HowTo
 --&gt;
 
-# How to Unlock a PDF on iPhone (Remove the Password Instantly)
+# How to Remove the Password from a PDF on iPhone (Unlock It Instantly)
 
 Locked PDF on your iPhone? If you know the password, you can remove it permanently in seconds — no desktop, no subscription, no file upload to a third-party server.
 

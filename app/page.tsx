@@ -7,13 +7,13 @@ import { webSiteSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
   title: 'PDFlow, PDF Editor for iPhone | No Subscription',
-  description: 'Merge, compress, split, rotate, unlock and protect PDFs on your iPhone. Every tool runs on the device. $19.99 once, or $2.99 a month.',
+  description: 'PDFlow is a PDF editor for iPhone. Merge, compress, split, rotate, unlock and protect PDFs on the device. $19.99 once, or $2.99 a month.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     siteName: 'PDFlow',
     title: 'PDFlow, PDF Editor for iPhone | No Subscription',
-    description: 'Merge, compress, split, rotate, unlock and protect PDFs on your iPhone. Every tool runs on the device. $19.99 once, or $2.99 a month.',
+    description: 'PDFlow is a PDF editor for iPhone. Merge, compress, split, rotate, unlock and protect PDFs on the device. $19.99 once, or $2.99 a month.',
     url: '/',
     images: [{ url: '/icon.png', width: 1024, height: 1024 }],
   },
@@ -111,12 +111,14 @@ export default function Home() {
             priority
             className="mx-auto mb-7 h-24 w-24 rounded-[22px]"
           />
-          <p className="text-signature font-semibold text-[0.72rem] tracking-[0.2em] uppercase mb-4">
-            PDF Editor for iPhone
-          </p>
           {/* The serif carries the claim and the italic carries the whole personality
-              budget, which is the right size for this product. */}
+              budget, which is the right size for this product. The eyebrow sits inside
+              the h1 so the heading carries the page's focus keyword, "pdf editor for
+              iphone"; its own classes keep it looking exactly as it did. */}
           <h1 className="font-serif text-[2.05rem] sm:text-[2.9rem] font-medium leading-[1.12] tracking-[-0.018em] mb-5 text-signature">
+            <span className="block font-sans text-signature font-semibold text-[0.72rem] leading-normal tracking-[0.2em] uppercase mb-4">
+              PDF Editor for iPhone
+            </span>{' '}
             Merge, compress and protect PDFs on your iPhone.{' '}
             <br className="hidden sm:inline" />
             <em className="italic font-normal text-ink">They never leave it.</em>

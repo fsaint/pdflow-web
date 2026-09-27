@@ -15,54 +15,54 @@ export interface PageMeta {
 
 const pageMeta: Record<string, Omit<PageMeta, 'slug'>> = {
   'edit-pdf-iphone': {
-    title: 'Edit PDF on iPhone — The Complete Guide | PDFlow',
-    meta: 'Everything you need to edit PDFs on iPhone: merge, compress, split, rotate, protect and more. No subscription — one-time payment. Download PDFlow free.',
+    title: 'Edit PDF on iPhone: The Complete Guide | PDFlow',
+    meta: 'Edit a PDF on iPhone: merge, compress, split, rotate, protect and more, all on the device. No subscription, one-time payment. Download PDFlow free.',
     primaryKeyword: 'edit pdf iphone',
   },
   'merge-pdf-iphone': {
-    title: 'Merge PDF on iPhone — Fast, Free to Try | PDFlow',
-    meta: 'Merge PDF files on iPhone in seconds with PDFlow. No subscription — one-time payment. Works offline. Download free on the App Store.',
+    title: 'Merge PDF on iPhone: Fast, Free to Try | PDFlow',
+    meta: 'Merge PDF files on iPhone in seconds with PDFlow. No subscription, one-time payment. Works offline. Download free on the App Store.',
     primaryKeyword: 'merge pdf iphone',
   },
   'compress-pdf-iphone': {
-    title: 'Compress PDF on iPhone — Reduce File Size Fast | PDFlow',
-    meta: 'Compress PDF files on iPhone without losing quality. No subscription, works offline. One-time payment. Download PDFlow free.',
+    title: 'Compress PDF on iPhone: Reduce File Size Fast | PDFlow',
+    meta: 'Compress PDF on iPhone and see the new size before you export. No subscription, works offline, one-time payment. Download PDFlow free.',
     primaryKeyword: 'compress pdf iphone',
   },
   'split-pdf-iphone': {
-    title: 'Split PDF on iPhone — Separate Pages Instantly | PDFlow',
-    meta: 'Split a PDF into individual pages or sections on iPhone. No subscription. Works offline. One-time payment. Download PDFlow free.',
+    title: 'Split PDF on iPhone: Separate Pages Instantly | PDFlow',
+    meta: 'Split a PDF on iPhone into single pages or sections. No subscription. Works offline. One-time payment. Download PDFlow free on the App Store.',
     primaryKeyword: 'split pdf iphone',
   },
   'rotate-pdf-iphone': {
-    title: 'Rotate PDF on iPhone — Fix Page Orientation | PDFlow',
-    meta: 'Rotate PDF pages permanently on iPhone. No subscription, works offline. One-time payment. Download PDFlow free.',
+    title: 'Rotate PDF on iPhone: Fix Page Orientation | PDFlow',
+    meta: 'Rotate PDF on iPhone and keep the change: the pages stay turned when you share the file. No subscription, works offline. Download PDFlow free.',
     primaryKeyword: 'rotate pdf iphone',
   },
   'unlock-pdf-iphone': {
-    title: 'Unlock PDF on iPhone — Remove Password Protection | PDFlow',
-    meta: 'Remove PDF password protection on iPhone. Your file never leaves your device. No subscription. One-time payment. Download PDFlow free.',
-    primaryKeyword: 'unlock pdf iphone',
+    title: 'Remove Password from PDF on iPhone | PDFlow',
+    meta: 'Remove the password from a PDF on iPhone. Your file never leaves your device. No subscription. One-time payment. Download PDFlow free.',
+    primaryKeyword: 'remove password from pdf iphone',
   },
   'protect-pdf-iphone': {
     title: 'Password Protect PDF on iPhone | PDFlow',
-    meta: 'Add password protection to any PDF on iPhone. Works offline, no cloud upload. No subscription. One-time payment. Download PDFlow free.',
+    meta: 'Password protect a PDF on iPhone before you share it. Works offline, no cloud upload. No subscription. One-time payment. Download PDFlow free.',
     primaryKeyword: 'password protect pdf iphone',
   },
   'reorder-pdf-iphone': {
-    title: 'Rearrange PDF Pages on iPhone | PDFlow',
-    meta: 'Drag and drop to reorder pages in any PDF on iPhone. No subscription, works offline. One-time payment. Download PDFlow free.',
-    primaryKeyword: 'rearrange pdf pages iphone',
+    title: 'Reorder PDF Pages on iPhone | PDFlow',
+    meta: 'Reorder PDF pages on iPhone with drag and drop. No subscription, works offline. One-time payment. Download PDFlow free on the App Store.',
+    primaryKeyword: 'reorder pdf pages iphone',
   },
   'remove-pages-pdf-iphone': {
     title: 'Delete Pages from PDF on iPhone | PDFlow',
-    meta: 'Remove unwanted pages from any PDF on iPhone in seconds. No subscription, works offline. One-time payment. Download PDFlow free.',
+    meta: 'Delete pages from a PDF on iPhone in seconds, before you send it. No subscription, works offline. One-time payment. Download PDFlow free.',
     primaryKeyword: 'delete pages from pdf iphone',
   },
   'pdf-to-image-iphone': {
-    title: 'Convert PDF to Image on iPhone — JPG & PNG | PDFlow',
-    meta: 'Convert any PDF page to JPG or PNG on iPhone. No subscription, works offline. One-time payment. Download PDFlow free.',
-    primaryKeyword: 'convert pdf to image iphone',
+    title: 'Convert PDF to JPG on iPhone (or PNG) | PDFlow',
+    meta: 'Convert PDF to JPG on iPhone, or to PNG, one page or every page. No subscription, works offline. One-time payment. Download PDFlow free.',
+    primaryKeyword: 'convert pdf to jpg iphone',
   },
 }
 

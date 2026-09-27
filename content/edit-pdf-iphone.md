@@ -8,7 +8,7 @@ word count target: 2,000-2,500 (pillar page)
 schema: Article + FAQPage
 --&gt;
 
-# How to Edit a PDF on iPhone — Complete Guide (2025)
+# How to Edit a PDF on iPhone: Complete Guide
 
 You can do a lot more to a PDF on your iPhone than most people realize. Merge files, split pages, compress for email, fix rotation, add a password, remove a password, reorder pages, delete pages, convert to images — all without a desktop, all on your iPhone.
 

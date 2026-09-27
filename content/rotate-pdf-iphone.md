@@ -8,7 +8,7 @@ word count target: 1,200-1,500
 schema: HowTo
 --&gt;
 
-# How to Rotate a PDF on iPhone (Permanently — Not Just the View)
+# How to Rotate a PDF on iPhone (Permanently, Not Just the View)
 
 Got a PDF with sideways or upside-down pages? Rotating your iPhone only changes how you see it — it doesn't fix the file. To permanently rotate PDF pages on iPhone, you need to edit the file itself.
 

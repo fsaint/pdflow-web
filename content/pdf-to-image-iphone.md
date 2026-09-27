@@ -8,7 +8,7 @@ word count target: 1,200-1,500
 schema: HowTo
 --&gt;
 
-# How to Convert a PDF to Images on iPhone (Every Page, JPG or PNG)
+# How to Convert a PDF to JPG on iPhone (Every Page, or PNG)
 
 Need to share a PDF as images, post pages to social media, or use a PDF graphic in another app? Converting PDF pages to JPG or PNG on iPhone is straightforward — and you can do it without a desktop or subscription.
 
