@@ -40,7 +40,7 @@ Modifying the actual words, fonts, and embedded images in a PDF. This requires O
 ### 2. Page and File Editing — Work With the Structure
 Everything else: reorganizing pages, combining files, reducing size, fixing orientation, securing with a password, extracting pages as images. This is what most people actually need when they say "edit a PDF" — and PDFlow handles all of it.
 
-This guide focuses on page and file editing — the practical, daily PDF tasks you need done on your iPhone.
+Can I edit PDF pages on iPhone? Yes, and that is what this guide covers: page and file editing, the practical, daily PDF tasks you need done on your iPhone.
 
 ---
 
@@ -148,7 +148,7 @@ Converts every PDF page to an individual image file. Choose JPG (smaller, great 
 
 ## PDF Editing Tasks — Quick Reference {#quick-reference}
 
-Use this table to find the right tool for any PDF task on iPhone:
+How do I edit a PDF file on iPhone? Start with the task. Use this table to find the right tool for it:
 
 | Task | Free (iOS Built-In) | PDFlow |
 |------|-------------------|--------|
@@ -168,6 +168,10 @@ Use this table to find the right tool for any PDF task on iPhone:
 ---
 
 ## Frequently Asked Questions {#faq}
+
+### Can I edit a PDF on my iPhone?
+
+Yes, if you mean the pages and the file. The Files app is free and can mark up a PDF, add a signature, and rotate, delete or reorder pages. PDFlow adds merge, split, compress, password protect, unlock and export to images, all on the phone, and it can sign a PDF too. Neither one changes the words already inside the PDF.
 
 ### Can I edit PDF text on iPhone for free?
 

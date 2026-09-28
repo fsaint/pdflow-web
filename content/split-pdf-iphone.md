@@ -118,7 +118,11 @@ PDFlow does both. Whether you want to cleanly divide a document down the middle 
 
 ## Frequently Asked Questions {#faq}
 
-### Can I split a PDF on iPhone for free?
+### How do I split a PDF into multiple files on iPhone?
+
+In PDFlow, open Split and set a page range for each part, for example pages 1–5 as one file and pages 6–12 as another. You can make several output files from one document in one session, and the original is not changed. The free iOS Print trick saves one page range per run, so you repeat it for each file you want.
+
+### Can you split a PDF on iPhone for free?
 
 Yes, using the iOS Print trick described above — no third-party app needed. The limitation is you can only extract contiguous page ranges, not individual scattered pages, and the process is indirect. PDFlow offers a dedicated split tool with page thumbnails and multi-file output as a one-time purchase.
 
@@ -126,7 +130,7 @@ Yes, using the iOS Print trick described above — no third-party app needed. Th
 
 In PDFlow, open the Split tool, tap the single page thumbnail you want to extract, and tap Split. You get a one-page PDF. With the iOS Print trick, set the page range to a single page number (e.g., "5-5") and save.
 
-### Can I split a PDF into individual pages on iPhone?
+### Can you split PDF pages into separate files on iPhone?
 
 Yes. In PDFlow, you can extract each page individually by selecting one page at a time and exporting. For a large document, this takes multiple steps — PDFlow does not currently offer a "split every page" batch mode. For most use cases (extracting a section or a few specific pages) the manual selection is fast enough.
 

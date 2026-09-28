@@ -58,7 +58,7 @@ That's it. Three taps.
 
 ## Does iPhone Have a Built-In PDF Merger? {#built-in}
 
-Yes — but it's limited. Since iOS 16, the built-in **Files app** can merge PDFs without any third-party app. It works, but has real restrictions that make it frustrating for anything beyond the simplest use case.
+Can you merge PDFs on iPhone without another app? Yes, but it's limited. Since iOS 16, the built-in **Files app** can merge PDFs without any third-party app. It works, but has real restrictions that make it frustrating for anything beyond the simplest use case.
 
 The Files app merger:
 - Merges files in **alphabetical order only** — you cannot reorder pages before merging
@@ -102,9 +102,13 @@ If you hit these limitations, PDFlow is the direct fix.
 
 ## Merge PDF iPhone — Frequently Asked Questions {#faq}
 
-### Can I merge PDFs on iPhone for free?
+### Can you combine PDFs on iPhone?
 
-Yes. The built-in Files app (iOS 16 and later) merges PDFs for free with no third-party app needed. The limitation is that files merge in alphabetical order and you cannot reorder pages or select specific pages. For more control, PDFlow offers a one-time purchase with no subscription.
+Yes, in two ways. The Files app combines PDFs for free, but only in alphabetical order. PDFlow lets you drag the files into the order you want before you merge, and it does the work on your iPhone.
+
+### How do I merge PDF files on iPhone for free?
+
+Use the built-in Files app (iOS 16 and later): select the PDFs, tap the three-dot menu, and tap Create PDF. No third-party app is needed. The limitation is that files merge in alphabetical order and you cannot reorder pages or select specific pages. For more control, PDFlow offers a one-time purchase with no subscription.
 
 ### How do I merge more than two PDFs on iPhone?
 

@@ -58,7 +58,7 @@ The exported PDF requires the password to open in any app, on any device.
 
 ## Does iPhone Have a Built-In PDF Password Tool? {#built-in}
 
-Yes — since iOS 16, the Files app can lock PDFs with a password natively. This is a genuine built-in option that works without any third-party app.
+Can you password protect a PDF on iPhone without an app? Yes. Since iOS 16, the Files app can lock PDFs with a password natively. This is a genuine built-in option that works without any third-party app.
 
 However, the built-in method has a significant limitation that most guides don't mention upfront:
 
@@ -126,7 +126,11 @@ A good rule: if you'd be uncomfortable with a stranger reading it, add a passwor
 
 ## Frequently Asked Questions {#faq}
 
-### Can I password protect a PDF on iPhone for free?
+### How do I password protect a PDF on iPhone?
+
+For a PDF stored on your iPhone, open it in the Files app, tap the arrow next to the file name, tap Lock PDF, and enter a password twice. That is free, but it does not work on iCloud Drive files. PDFlow works on a PDF from any source: tap Protect, set the password, and export an AES-encrypted copy. The file is encrypted on your iPhone and is not uploaded.
+
+### Can I password protect a PDF on my iPhone for free?
 
 Yes. iOS 16 and later includes a built-in Lock PDF option in the Files app for PDFs stored on your device (not iCloud). The limitation is it only works on locally stored files and you cannot remove the password within the Files app. PDFlow works with any PDF from any source and pairs with the Unlock tool to remove passwords when needed — one-time purchase, no subscription.
 

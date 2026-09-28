@@ -30,7 +30,7 @@ This guide covers two methods: Apple's built-in compression tool (free, limited 
 
 ## How to Compress a PDF on iPhone with PDFlow {#pdflow}
 
-PDFlow compresses PDFs on-device with no quality guesswork — you pick the compression level, see the estimated output size, and export.
+PDFlow compresses PDFs on-device with no quality guesswork — you pick the compression level, see the estimated output size, and export. Here is how to compress a PDF file on iPhone in three steps.
 
 ### Step 1: Open PDFlow and Tap Compress
 
@@ -114,7 +114,11 @@ If your PDF is already small and text-only, compression won't make a significant
 
 ## Frequently Asked Questions {#faq}
 
-### Can I compress a PDF on iPhone for free?
+### How do I compress a PDF on iOS?
+
+Open the PDF in the Files app, tap Share, tap Export as PDF, and drag the quality slider down. That is the free built-in route on iOS 15 and later. In PDFlow, tap Compress, pick Low, Medium or High, check the estimated output size, and export. PDFlow processes the file on your iPhone and uploads nothing.
+
+### Can I compress a PDF on my iPhone for free?
 
 Yes. iOS 15 and later includes a basic compression option via the Export function in the Preview viewer in the Files app — no third-party app needed. For more control over compression level and a preview of the output file size before exporting, PDFlow offers a one-time purchase with no subscription.
 

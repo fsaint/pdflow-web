@@ -47,7 +47,7 @@ Type the PDF password. PDFlow verifies it against the file on-device — nothing
 
 Tap **Unlock**. PDFlow removes the password from the file and presents the export options. Save to Files, AirDrop, email, or open in any other app.
 
-The exported PDF opens freely — no password required, no restrictions. You can now edit, compress, merge, or share it without being prompted for a password each time.
+That is how to remove the password from a PDF file on iPhone. The exported PDF opens freely — no password required, no restrictions. You can now edit, compress, merge, or share it without being prompted for a password each time.
 
 **<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
 
@@ -59,7 +59,7 @@ Partially. iOS can **open** a password-protected PDF — the Files app and Mail 
 
 Once you've opened a locked PDF in iOS and entered the password, you can tap Share → Save to Files. In some cases this saves an unlocked copy — but this behavior is inconsistent across iOS versions and file types, and it doesn't work reliably on all protected PDFs.
 
-For a guaranteed, clean password removal that works every time, use PDFlow.
+For a clean way to remove a PDF password from iPhone that works every time, use PDFlow.
 
 | Capability | iOS Built-in | PDFlow |
 |-----------|-------------|--------|
@@ -90,13 +90,17 @@ PDFlow cannot crack or bypass passwords you don't know. If you've lost the passw
 
 ## Frequently Asked Questions {#faq}
 
+### How do I remove the password from a PDF on iOS?
+
+Open it in PDFlow's Unlock tool, type the password, and export a copy that opens without one. This happens on your iPhone and nothing is uploaded. You need to know the password: PDFlow cannot remove one you do not know. iOS on its own can open a locked PDF, but it cannot reliably remove the password.
+
 ### Can I unlock a PDF on iPhone without knowing the password?
 
 No reliable method exists for removing a PDF password without knowing it — and attempting to do so on documents you don't own may violate copyright or confidentiality laws. If you own the document and have lost the password, contact the original sender or issuer to request an unlocked copy. PDFlow requires the correct password to unlock.
 
 ### Why do bank statement PDFs have passwords?
 
-Banks password-protect PDF statements as a security measure. The password is typically your date of birth, account number, or a combination defined by the bank — check your bank's help documentation. Once you unlock the PDF with PDFlow, you can save a clean copy for use with accounting software or tax tools.
+Banks password-protect PDF statements as a security measure. The password is typically your date of birth, account number, or a combination defined by the bank — check your bank's help documentation. To remove the password from your own PDF bank statement on iPhone, open it in PDFlow's Unlock tool and type the password your bank set. PDFlow cannot find or guess it for you. Once unlocked, you can save a clean copy for use with accounting software or tax tools.
 
 ### Does removing a PDF password affect the content?
 

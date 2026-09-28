@@ -100,9 +100,13 @@ For PDFs longer than 8–10 pages or when removing multiple pages, PDFlow's grid
 
 ## Frequently Asked Questions {#faq}
 
-### Can I delete pages from a PDF on iPhone for free?
+### How do I delete PDF pages on iPhone?
 
-Yes. iOS 16 and later includes a built-in page delete function in the Preview viewer inside the Files app — no third-party app required. The limitation is it works one page at a time and overwrites the original file. PDFlow adds multi-select, grid view, and clean export as a one-time purchase with no subscription.
+Open the PDF in the Files app, tap the page indicator at the top, touch and hold the page you want gone, and tap Delete. That is free, but it works one page at a time and saves over the original. In PDFlow, tap Remove, tap every page you want to cut, tap Delete, and export a new file.
+
+### Can you delete pages from a PDF on iPhone for free?
+
+Yes. iOS 16 and later includes a built-in page delete function in the Preview viewer inside the Files app — no third-party app required. The limitation is it works one page at a time and overwrites the original file. PDFlow adds multi-select, grid view, and clean export, and deleting pages in PDFlow is free too, with no limit.
 
 ### How do I delete multiple pages from a PDF on iPhone at once?
 

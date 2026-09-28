@@ -59,7 +59,7 @@ Each PDF page becomes its own image file, numbered in order.
 
 ## Does iPhone Have a Built-In PDF to Image Converter? {#built-in}
 
-Not directly. iOS does not include a native PDF-to-image conversion tool. The closest built-in option is a screenshot — take a screenshot of a PDF page while viewing it, then crop out the status bar. This works for one page at a time and produces lower quality than a proper conversion.
+Not directly. iOS does not include a native PDF-to-image conversion tool. If you want to convert a PDF to JPG on iPhone without an app, the closest option is a screenshot — take a screenshot of a PDF page while viewing it, then crop out the status bar. This works for one page at a time and produces lower quality than a proper conversion.
 
 For multi-page PDFs, screenshots become impractical immediately. The iOS Shortcuts app offers a more automated workaround (see below), but it requires setup and converts one page at a time.
 
@@ -118,7 +118,11 @@ This is the most common question when converting PDFs to images:
 
 ## Frequently Asked Questions {#faq}
 
-### Can I convert a PDF to images on iPhone for free?
+### How do I convert a PDF to JPG on my iPhone?
+
+In PDFlow, tap To Images, choose JPG, and tap Convert. Every page becomes its own image, numbered in order, and you can save them to Photos or Files. For free, build a Shortcut with Get Pages from PDF and Convert Image set to JPEG. It needs setup first.
+
+### Can you convert a PDF to JPG on iPhone for free?
 
 Yes, using the iOS Shortcuts workaround described above — no third-party app needed, though setup is required. For instant conversion of multi-page PDFs without any setup, PDFlow converts all pages in one tap as a one-time purchase with no subscription.
 

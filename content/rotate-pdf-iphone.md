@@ -61,7 +61,7 @@ The exported PDF opens correctly in every app — no more sideways pages.
 
 ## Temporary vs. Permanent Rotation — What's the Difference? {#temp-vs-perm}
 
-This is the most important thing to understand about rotating PDFs on iPhone:
+Can you rotate the orientation of a PDF on iPhone for good? Yes, but only with a tool that edits the file. This is the most important thing to understand about rotating PDFs on iPhone:
 
 | Type | What It Does | Does It Fix the File? |
 |------|-------------|----------------------|
@@ -123,6 +123,10 @@ Alternatively, on some iOS versions:
 
 ## Frequently Asked Questions {#faq}
 
+### How do I rotate a PDF on iPhone?
+
+Open the PDF in the Files app, tap the page count to show the thumbnails, touch and hold a page, and tap Rotate Left or Rotate Right. That is free and saves into the file, one page at a time. In PDFlow, tap Rotate, select one page or all of them, pick a direction, and export a new file. Rotating pages in PDFlow stays free, with no limit.
+
 ### Why does my PDF keep rotating back on iPhone?
 
 If the rotation resets every time you open the file, you are only changing the display view — not the file itself. To fix the rotation permanently, you need a tool that edits the PDF structure, like PDFlow. Rotating your iPhone or using pinch/zoom gestures in a PDF viewer does not change the underlying file.
@@ -153,7 +157,7 @@ Yes. PDFlow performs file-level rotation, which means the corrected orientation 
 
 [Adobe Acrobat](https://www.adobe.com/acrobat/hub/how-to-rotate-pdfs-on-iphone.html) and [PDF Expert](https://pdfexpert.com/ios/how-to-rotate-pages-pdf) both handle PDF rotation — behind subscription paywalls. The iOS built-in method works for single pages but has no multi-select and overwrites the original.
 
-PDFlow is a one-time purchase that does it properly:
+If you want to rotate a PDF on iPhone without Acrobat, PDFlow is a one-time purchase that does it properly:
 
 - **Permanent file-level rotation** — not a view change, the fix sticks
 - **Rotate multiple pages at once** — select all or just the problem pages

@@ -64,7 +64,7 @@ The built-in method:
 - Does not let you select and move multiple pages at once
 - Has no undo history beyond the standard iOS back gesture
 
-For short, simple PDFs, the built-in method is fine. For anything longer or more complex, PDFlow's thumbnail grid is significantly faster.
+For short, simple PDFs, the built-in method is fine, and it is the quickest way to rearrange pages in a PDF on mobile without installing anything. For anything longer or more complex, PDFlow's thumbnail grid is significantly faster.
 
 ---
 
@@ -103,9 +103,13 @@ For PDFs with more than 8–10 pages, the horizontal strip in iOS Preview become
 
 ## Frequently Asked Questions {#faq}
 
-### Can I reorder PDF pages on iPhone for free?
+### How do I rearrange PDF pages on iPhone?
 
-Yes. iOS 16 and later includes a built-in page reorder tool in the Preview viewer inside the Files app. It's free and requires no third-party app. For longer documents or more control — grid view, undo, export without overwriting — PDFlow is a one-time purchase with no subscription.
+Open the PDF in the Files app, tap the page indicator at the top, then touch and hold a page thumbnail and drag it to its new place. That is free, but it saves over the original. In PDFlow, tap Reorder, drag pages around the full thumbnail grid, and tap Done to export a new file. Nothing is uploaded.
+
+### Can I rearrange PDF pages on iPhone for free?
+
+Yes. iOS 16 and later includes a built-in page reorder tool in the Preview viewer inside the Files app. It's free and requires no third-party app. For longer documents or more control — grid view, undo, export without overwriting — use PDFlow. Reordering pages in PDFlow is free too, with no limit.
 
 ### How do I move multiple pages at once on iPhone?
 
