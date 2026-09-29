@@ -153,7 +153,7 @@ PDFlow compresses on-device with a one-time purchase:
 - **Three labeled compression levels** — Low, Medium, High with estimated output size
 - **On-device processing** — no internet required, no files uploaded to any server
 - **Original file always preserved** — exports as a new file, never overwrites
-- **No daily limits** — compress as many PDFs as you need
+- **One free compress a day, then no limit** — unlimited compressing once you unlock PDFlow
 - **Full PDF toolkit included** — compress, merge, split, reorder, remove pages, rotate, protect, unlock, convert to images — one app, one payment
 
 **<a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>**
