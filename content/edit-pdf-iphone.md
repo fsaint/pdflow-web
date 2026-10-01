@@ -56,6 +56,8 @@ Apple has added meaningful PDF tools to iOS over the years. Before reaching for 
 
 **How:** Open a PDF in Files → tap the pen icon (Markup) → use the toolbar.
 
+To sign, step by step in Files, Mail or PDFlow: [how to sign a PDF on iPhone](/sign-pdf-iphone).
+
 ### Rotate Pages (iOS 16+)
 - Rotate individual PDF pages 90° left or right
 - Changes save to the file permanently
@@ -171,7 +173,7 @@ How do I edit a PDF file on iPhone? Start with the task. Use this table to find 
 
 ### Can I edit a PDF on my iPhone?
 
-Yes, if you mean the pages and the file. The Files app is free and can mark up a PDF, add a signature, and rotate, delete or reorder pages. PDFlow adds merge, split, compress, password protect, unlock and export to images, all on the phone, and it can sign a PDF too. Neither one changes the words already inside the PDF.
+Yes, if you mean the pages and the file. The Files app is free and can mark up a PDF, add a signature, and rotate, delete or reorder pages. PDFlow adds merge, split, compress, password protect, unlock and export to images, all on the phone, and it can [sign a PDF](/sign-pdf-iphone) too. Neither one changes the words already inside the PDF.
 
 ### Can I edit PDF text on iPhone for free?
 

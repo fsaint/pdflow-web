@@ -59,6 +59,11 @@ const pageMeta: Record<string, Omit<PageMeta, 'slug'>> = {
     meta: 'Delete pages from a PDF on iPhone in seconds, before you send it. No subscription, works offline. One-time payment. Download PDFlow free.',
     primaryKeyword: 'delete pages from pdf iphone',
   },
+  'sign-pdf-iphone': {
+    title: 'How to Sign a PDF on iPhone (Free, Two Ways) | PDFlow',
+    meta: "How to sign a PDF on iPhone for free: Apple's Markup in Files or Mail, or PDFlow, which keeps your original file. Draw once, place, save. Nothing uploaded.",
+    primaryKeyword: 'sign pdf iphone',
+  },
   'pdf-to-image-iphone': {
     title: 'Convert PDF to JPG on iPhone (or PNG) | PDFlow',
     meta: 'Convert PDF to JPG on iPhone, or to PNG, one page or every page. No subscription, works offline. One-time payment. Download PDFlow free.',

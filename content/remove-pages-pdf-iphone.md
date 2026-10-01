@@ -154,6 +154,7 @@ After removing pages, you might also need to:
 - [Merge PDFs on iPhone](/merge-pdf-iphone) — combine files after trimming unwanted pages
 - [Reorder PDF pages on iPhone](/reorder-pdf-iphone) — rearrange after removing pages
 - [Compress the PDF](/compress-pdf-iphone) — reduce file size after editing
+- [Sign a PDF on iPhone](/sign-pdf-iphone) — sign the pages you are sending
 
 ---
 

@@ -178,6 +178,7 @@ PDFlow protects on-device with a one-time purchase:
 - [Unlock a PDF on iPhone](/unlock-pdf-iphone) — remove a password to edit, then re-protect
 - [Compress the PDF](/compress-pdf-iphone) — reduce size before sending a protected file
 - [Merge PDFs on iPhone](/merge-pdf-iphone) — combine documents, then protect the result
+- [Sign a PDF on iPhone](/sign-pdf-iphone) — sign it first, then protect the signed copy
 
 ---
 

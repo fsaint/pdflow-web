@@ -166,6 +166,7 @@ After compressing, you might also need to:
 - [Merge PDFs on iPhone](/merge-pdf-iphone) — combine files, then compress the result
 - [Remove pages from a PDF](/remove-pages-pdf-iphone) — cut unnecessary pages to reduce size further
 - [Split a PDF on iPhone](/split-pdf-iphone) — break a large PDF into smaller parts
+- [Sign a PDF on iPhone](/sign-pdf-iphone) — sign the form before you compress and send it
 
 ---
 

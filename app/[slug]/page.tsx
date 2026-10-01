@@ -96,6 +96,7 @@ export default async function Page({ params }: Props) {
             { slug: 'reorder-pdf-iphone', label: 'Reorder Pages' },
             { slug: 'remove-pages-pdf-iphone', label: 'Remove Pages' },
             { slug: 'pdf-to-image-iphone', label: 'PDF to Image' },
+            { slug: 'sign-pdf-iphone', label: 'Sign PDF' },
             { slug: 'edit-pdf-iphone', label: 'Edit PDF (Full Guide)' },
           ]
             .filter((l) => l.slug !== slug)
