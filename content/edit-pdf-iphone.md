@@ -229,7 +229,7 @@ Yes. PDFlow runs natively on both iPhone and iPad, and takes advantage of the la
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*
 
 ---
 

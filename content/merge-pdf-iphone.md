@@ -155,33 +155,4 @@ Once you've merged your PDFs, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Merge PDF Files on iPhone",
-  "description": "Merge two or more PDF files on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Merge",
-      "text": "Open PDFlow on your iPhone and tap the Merge tool on the home screen."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Select your PDF files",
-      "text": "Tap Add Files to import PDFs from Files, Google Drive, or any app. Drag to reorder before merging."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export your merged PDF",
-      "text": "Tap Merge. PDFlow combines the files on-device instantly. Tap Share to save or send the result."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

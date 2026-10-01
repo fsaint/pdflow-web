@@ -147,33 +147,4 @@ After unlocking, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Unlock a PDF on iPhone",
-  "description": "Remove a password from a PDF on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Unlock",
-      "text": "Open PDFlow on your iPhone and tap Unlock. Import your locked PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Enter the password",
-      "text": "Type the PDF password. PDFlow verifies it on-device — nothing is sent to any server."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the unlocked PDF",
-      "text": "Tap Unlock. PDFlow removes the password and lets you export to Files, AirDrop, email, or any other app."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

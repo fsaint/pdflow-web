@@ -174,33 +174,4 @@ After splitting, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Split a PDF on iPhone",
-  "description": "Split or extract pages from a PDF on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Split",
-      "text": "Open PDFlow on your iPhone and tap Split. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Define your split",
-      "text": "Choose a page range or tap individual page thumbnails to select the pages you want to extract."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the split files",
-      "text": "Tap Split. PDFlow creates new PDF files on-device. Tap Share to save to Files, AirDrop, email, or any other app."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

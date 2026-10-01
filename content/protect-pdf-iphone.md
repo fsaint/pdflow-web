@@ -182,33 +182,4 @@ PDFlow protects on-device with a one-time purchase:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Password Protect a PDF on iPhone",
-  "description": "Add a password to a PDF on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Protect",
-      "text": "Open PDFlow on your iPhone and tap Protect. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Set your password",
-      "text": "Enter a password and confirm it. Use a strong combination of letters, numbers, and symbols."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the protected PDF",
-      "text": "Tap Protect. PDFlow encrypts the file on-device with AES encryption. Tap Share to save or send the locked PDF."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

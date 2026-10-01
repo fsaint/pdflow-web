@@ -179,33 +179,4 @@ After rotating, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Rotate PDF Pages on iPhone Permanently",
-  "description": "Rotate PDF pages permanently on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Rotate",
-      "text": "Open PDFlow on your iPhone and tap Rotate. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Select pages and choose direction",
-      "text": "Tap the page thumbnails you want to rotate. Choose Rotate Right, Rotate Left, or 180°."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the rotated PDF",
-      "text": "Tap Done. PDFlow saves the rotation into the file. Tap Share to export to Files, AirDrop, email, or any other app."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

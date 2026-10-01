@@ -173,33 +173,4 @@ PDFlow converts on-device with a one-time purchase:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Convert a PDF to Images on iPhone",
-  "description": "Convert PDF pages to JPG or PNG images on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap To Images",
-      "text": "Open PDFlow on your iPhone and tap To Images. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Choose your format",
-      "text": "Select JPG for smaller files and sharing, or PNG for lossless quality with text-heavy documents."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the images",
-      "text": "Tap Convert. PDFlow produces one image per page on-device. Tap Share to save to Photos, Files, AirDrop, or email."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

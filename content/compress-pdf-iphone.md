@@ -170,33 +170,4 @@ After compressing, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Compress a PDF on iPhone",
-  "description": "Reduce PDF file size on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Compress",
-      "text": "Open PDFlow on your iPhone and tap Compress. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Choose your compression level",
-      "text": "Select Low, Medium, or High compression. PDFlow shows the estimated output file size for each level."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the compressed PDF",
-      "text": "Tap Compress. PDFlow processes the file on-device. Tap Share to save to Files, AirDrop, email, or any other app."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

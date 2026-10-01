@@ -158,33 +158,4 @@ After removing pages, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Delete Pages from a PDF on iPhone",
-  "description": "Remove pages from a PDF on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Remove",
-      "text": "Open PDFlow on your iPhone and tap Remove. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Select the pages to delete",
-      "text": "Tap page thumbnails to select the pages you want to remove. Select one or multiple pages."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the cleaned PDF",
-      "text": "Tap Delete to remove the selected pages. Tap Share to save to Files, AirDrop, email, or any other app."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*

@@ -157,33 +157,4 @@ After reordering, you might also need to:
 
 ---
 
-*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 16 or later.*
-
----
-
-&lt;!-- HowTo Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Reorder PDF Pages on iPhone",
-  "description": "Rearrange pages in a PDF on iPhone using PDFlow in three steps.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Open PDFlow and tap Reorder",
-      "text": "Open PDFlow on your iPhone and tap Reorder. Import your PDF from Files, Google Drive, or via the Share Sheet."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Drag pages into the correct order",
-      "text": "Touch and hold a page thumbnail until it lifts, then drag it to its new position. Repeat for any other pages."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Export the reordered PDF",
-      "text": "Tap Done. PDFlow saves the new order and lets you export to Files, AirDrop, email, or any other app."
-    }
-  ]
-}
---&gt;
+*PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*
