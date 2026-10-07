@@ -70,7 +70,21 @@ posthog.init("phc_yHsD5BgvttTdJFxwPWt22UBqWYLCHZqZBN8BgdrvQUSS", { api_host: "ht
     ph.register({ $utm_source: u.utm_source || "", $utm_medium: u.utm_medium || "", $utm_campaign: u.utm_campaign || "pdflow", $utm_content: u.utm_content || "", $utm_term: u.utm_term || "", product: "pdflow", platform: "web" });
     ph.capture("$pageview");
   } });
+// App Store links carry Apple's campaign token so App Store Connect can count downloads per source:
+// ct is the visit's utm_source (kept for the session, so a reader who moves to another page keeps it),
+// or "web" for everyone else. Apple accepts any ct up to 40 characters; pt is the provider token.
+function mmAppStoreCampaign() {
+  var src = "";
+  try { src = (window.MM && window.MM.utm && window.MM.utm.utm_source) || sessionStorage.getItem("mm_src") || "";
+        if (src) sessionStorage.setItem("mm_src", src); } catch (e) {}
+  var ct = (src.toLowerCase().replace(/[^a-z0-9_-]/g, "").slice(0, 40)) || "web";
+  document.querySelectorAll('a[href^="https://apps.apple.com/"]').forEach(function (a) {
+    try { var url = new URL(a.href); url.searchParams.set("pt", "16976"); url.searchParams.set("ct", ct);
+          url.searchParams.set("mt", "8"); a.href = url.toString(); } catch (e) {}
+  });
+}
 function mmWireCtas() {
+  mmAppStoreCampaign();
   document.querySelectorAll("[data-cta]").forEach(function (el) {
     el.addEventListener("click", function () { posthog.capture("cta_click", { plan: el.dataset.plan || "", position: el.dataset.position || "", product: "pdflow" }); });
   });
