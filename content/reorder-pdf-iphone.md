@@ -1,14 +1,14 @@
 &lt;!--
-title: Reorder PDF Pages on iPhone — Drag, Drop, Done | PDFlow
+title: How to Rearrange PDF Pages on iPhone | PDFlow
 meta: Rearrange PDF pages on iPhone in seconds with PDFlow. Drag to reorder, no subscription needed. One-time purchase. Download free on the App Store.
 url: /reorder-pdf-iphone
-primary keyword: reorder pdf pages iphone
-secondary: rearrange pdf pages iphone, how to reorder pdf pages on iphone, change page order pdf iphone, move pages in pdf iphone
+primary keyword: how to rearrange pdf pages on iphone
+secondary: reorder pdf pages on iphone, how to reorder pdf pages on iphone, change page order pdf iphone, move pages in pdf iphone
 word count target: 1,200-1,500
 schema: HowTo
 --&gt;
 
-# How to Reorder PDF Pages on iPhone (Drag and Drop, No Subscription)
+# How to Rearrange PDF Pages on iPhone (Drag to Reorder, No Subscription)
 
 Need to rearrange the pages in a PDF on your iPhone? Whether you merged files in the wrong order or received a document with scrambled pages, you can fix it directly on your iPhone — no desktop required.
 

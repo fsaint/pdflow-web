@@ -1,9 +1,9 @@
 &lt;!--
-title: How to Edit a PDF on iPhone — Complete Guide (2025) | PDFlow
+title: How to Edit PDF on iPhone: The Complete Guide | PDFlow
 meta: Everything you can do to a PDF on iPhone: merge, split, compress, rotate, reorder, protect, unlock, and convert to images. PDFlow — one-time purchase, no subscription.
 url: /edit-pdf-iphone
-primary keyword: edit pdf iphone
-secondary: pdf editor iphone, how to edit pdf on iphone, best pdf app iphone, pdf tools ios
+primary keyword: how to edit pdf on iphone
+secondary: edit pdf on iphone, best pdf app iphone, pdf tools ios
 word count target: 2,000-2,500 (pillar page)
 schema: Article + FAQPage
 --&gt;
@@ -11,6 +11,8 @@ schema: Article + FAQPage
 # How to Edit a PDF on iPhone: Complete Guide
 
 You can do a lot more to a PDF on your iPhone than most people realize. Merge files, split pages, compress for email, fix rotation, add a password, remove a password, reorder pages, delete pages, convert to images — all without a desktop, all on your iPhone.
+
+In PDFlow, editing a PDF means working on its pages and the file: delete, reorder, rotate, split and merge pages, sign it, compress it, and add or remove a password; it does not change the text inside the PDF.
 
 This guide covers everything: what iOS can do natively for free, and where a dedicated app like PDFlow fills the gaps — without a subscription.
 
@@ -230,19 +232,3 @@ Yes. PDFlow runs natively on both iPhone and iPad, and takes advantage of the la
 ---
 
 *PDFlow is available on the App Store for iPhone and iPad. Requires iOS 17 or later.*
-
----
-
-&lt;!-- Article + FAQPage Schema --&gt;
-&lt;!--
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How to Edit a PDF on iPhone — Complete Guide (2025)",
-  "description": "Everything you can do to a PDF on iPhone: merge, split, compress, rotate, reorder, protect, unlock, and convert to images.",
-  "author": {
-    "@type": "Organization",
-    "name": "PDFlow"
-  }
-}
---&gt;

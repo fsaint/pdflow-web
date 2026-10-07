@@ -1,9 +1,9 @@
 &lt;!--
-title: Unlock PDF on iPhone — Remove Password Instantly | PDFlow
+title: How to Remove Password from PDF on iPhone | PDFlow
 meta: Remove a password from any PDF on iPhone with PDFlow. Know the password? Unlock in seconds. No subscription — one-time purchase. Download free on the App Store.
 url: /unlock-pdf-iphone
-primary keyword: unlock pdf iphone
-secondary: remove password from pdf iphone, how to unlock a pdf on iphone, open locked pdf iphone, remove pdf password ios
+primary keyword: how to remove password from pdf on iphone
+secondary: remove password from pdf on iphone, unlock pdf iphone, how to unlock a pdf on iphone, open locked pdf iphone, remove pdf password ios
 word count target: 1,200-1,500
 schema: HowTo
 --&gt;

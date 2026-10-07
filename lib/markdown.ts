@@ -15,14 +15,14 @@ export interface PageMeta {
 
 const pageMeta: Record<string, Omit<PageMeta, 'slug'>> = {
   'edit-pdf-iphone': {
-    title: 'Edit PDF on iPhone: The Complete Guide | PDFlow',
-    meta: 'Edit a PDF on iPhone: merge, compress, split, rotate, protect and more, all on the device. No subscription, one-time payment. Download PDFlow free.',
-    primaryKeyword: 'edit pdf iphone',
+    title: 'How to Edit PDF on iPhone: The Complete Guide | PDFlow',
+    meta: 'How to edit PDF on iPhone: delete, reorder, rotate, split and merge pages, sign, compress, add a password. The text inside stays as it is. No subscription.',
+    primaryKeyword: 'how to edit pdf on iphone',
   },
   'merge-pdf-iphone': {
-    title: 'Merge PDF on iPhone: Fast, Free to Try | PDFlow',
-    meta: 'Merge PDF files on iPhone in seconds with PDFlow. No subscription, one-time payment. Works offline. Download free on the App Store.',
-    primaryKeyword: 'merge pdf iphone',
+    title: 'Combine PDF on iPhone: Merge Files in 3 Taps | PDFlow',
+    meta: 'Combine PDF files on iPhone into one document. PDFlow merges them on the device and works offline. No subscription, one-time payment. Download free.',
+    primaryKeyword: 'combine pdf on iphone',
   },
   'compress-pdf-iphone': {
     title: 'Compress PDF on iPhone: Reduce File Size Fast | PDFlow',
@@ -35,14 +35,14 @@ const pageMeta: Record<string, Omit<PageMeta, 'slug'>> = {
     primaryKeyword: 'split pdf iphone',
   },
   'rotate-pdf-iphone': {
-    title: 'Rotate PDF on iPhone: Fix Page Orientation | PDFlow',
-    meta: 'Rotate PDF on iPhone and keep the change: the pages stay turned when you share the file. No subscription, works offline. Download PDFlow free.',
-    primaryKeyword: 'rotate pdf iphone',
+    title: 'How to Rotate PDF on iPhone and Keep It Turned | PDFlow',
+    meta: 'How to rotate PDF on iPhone and keep the change: the pages stay turned when you share the file. No subscription, works offline. Download PDFlow free.',
+    primaryKeyword: 'how to rotate pdf on iphone',
   },
   'unlock-pdf-iphone': {
-    title: 'Remove Password from PDF on iPhone | PDFlow',
-    meta: 'Remove the password from a PDF on iPhone. Your file never leaves your device. No subscription. One-time payment. Download PDFlow free.',
-    primaryKeyword: 'remove password from pdf iphone',
+    title: 'How to Remove Password from PDF on iPhone | PDFlow',
+    meta: 'How to remove the password from a PDF on iPhone. You need the password to remove it. Your file never leaves your device. Download PDFlow free.',
+    primaryKeyword: 'how to remove password from pdf on iphone',
   },
   'protect-pdf-iphone': {
     title: 'Password Protect PDF on iPhone | PDFlow',
@@ -50,9 +50,9 @@ const pageMeta: Record<string, Omit<PageMeta, 'slug'>> = {
     primaryKeyword: 'password protect pdf iphone',
   },
   'reorder-pdf-iphone': {
-    title: 'Reorder PDF Pages on iPhone | PDFlow',
-    meta: 'Reorder PDF pages on iPhone with drag and drop. No subscription, works offline. One-time payment. Download PDFlow free on the App Store.',
-    primaryKeyword: 'reorder pdf pages iphone',
+    title: 'How to Rearrange PDF Pages on iPhone | PDFlow',
+    meta: 'How to rearrange PDF pages on iPhone: drag pages to reorder them, then save. No subscription, works offline. One-time payment. Download PDFlow free.',
+    primaryKeyword: 'how to rearrange pdf pages on iphone',
   },
   'remove-pages-pdf-iphone': {
     title: 'Delete Pages from PDF on iPhone | PDFlow',

@@ -1,9 +1,9 @@
 &lt;!--
-title: Rotate PDF on iPhone — Permanently, Not Just the View | PDFlow
+title: How to Rotate PDF on iPhone and Keep It Turned | PDFlow
 meta: Rotate PDF pages on iPhone permanently with PDFlow. Fix upside-down or sideways pages. No subscription — one-time purchase. Download free on the App Store.
 url: /rotate-pdf-iphone
-primary keyword: rotate pdf iphone
-secondary: how to rotate pdf on iphone, rotate pdf pages ios, rotate pdf permanently iphone, rotate single page pdf iphone
+primary keyword: how to rotate pdf on iphone
+secondary: rotate pdf on iphone, rotate pdf pages ios, rotate pdf permanently iphone, rotate single page pdf iphone
 word count target: 1,200-1,500
 schema: HowTo
 --&gt;

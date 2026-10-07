@@ -1,16 +1,16 @@
 &lt;!--
-title: Merge PDF on iPhone — Fast, Free to Try | PDFlow
+title: Combine PDF on iPhone: Merge Files in 3 Taps | PDFlow
 meta: Merge PDF files on iPhone in seconds with PDFlow. No subscription — one-time payment. Works offline. Download free on the App Store.
 url: /merge-pdf-iphone
-primary keyword: merge pdf iphone
-secondary: combine pdf iphone, how to merge pdfs on iphone, join pdf files ios
+primary keyword: combine pdf on iphone
+secondary: merge pdf on iphone, how to combine pdf files on iphone, how to merge pdfs on iphone, join pdf files ios
 word count target: 1,200-1,500
 schema: HowTo
 --&gt;
 
-# How to Merge PDF Files on iPhone (Fast, No Subscription)
+# How to Merge and Combine PDF Files on iPhone (No Subscription)
 
-Need to merge PDF files on your iPhone right now? You have two options: use Apple's built-in Files app (free but limited) or use a dedicated app like PDFlow. This guide covers both — step by step — so you can combine your PDFs in under a minute.
+Need to combine PDF files on your iPhone right now? You have two options: use Apple's built-in Files app (free but limited) or use a dedicated app like PDFlow. This guide covers both — step by step — so you can merge your PDFs into one in under a minute.
 
 **The short answer:** PDFlow merges PDFs in 3 taps. No subscription, no account, no internet required. One-time purchase. <a href="https://apps.apple.com/app/id6779042750" data-cta data-position="article" data-plan="app-store">Download PDFlow on the App Store →</a>
 
