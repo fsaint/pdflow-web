@@ -138,6 +138,14 @@ if (document.readyState === "loading") document.addEventListener("DOMContentLoad
               <Link href="/remove-pages-pdf-iphone" className="hover:text-signature">Remove Pages</Link>
               <Link href="/pdf-to-image-iphone" className="hover:text-signature">PDF to Image</Link>
             </div>
+            <div className="mb-6 text-xs text-muted">
+              <p className="mb-2">Also by Felipe Saint-Jean</p>
+              <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                <li><a href="https://pizzarun.lol/" className="hover:text-signature">Pizza Run</a>: pizza delivery game, free and no ads</li>
+                <li><a href="https://helm.mom/" className="hover:text-signature">Helm</a>: tools, memory and skills for your AI agent</li>
+                <li><a href="https://primevital.pro/" className="hover:text-signature">PrimeVital</a>: health and fitness for men over 40</li>
+              </ul>
+            </div>
             <div className="flex justify-center gap-6 mb-4 text-xs text-muted">
               <Link href="/privacy" className="hover:text-signature">Privacy Policy</Link>
               <Link href="/support" className="hover:text-signature">Support</Link>
