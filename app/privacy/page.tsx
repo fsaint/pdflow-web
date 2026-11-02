@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
 
       <JsonLd schema={webPageSchema('/privacy', 'PDFlow privacy policy', 'Every PDF is processed on your iPhone and nothing is uploaded to a server.')} />
       <h1 className="text-3xl font-medium text-signature mb-2">Privacy Policy</h1>
-      <p className="text-sm text-gray-400 mb-10">Last updated: June 2026</p>
+      <p className="text-sm text-gray-400 mb-10">Last updated: November 2026</p>
 
       <div className="prose prose-gray max-w-none space-y-8 text-gray-700">
 
@@ -68,6 +68,26 @@ export default function PrivacyPolicy() {
               Apple&apos;s Privacy Policy
             </a>
             .
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-medium text-signature mb-3">Apple Ads</h2>
+          <p>
+            Some people find PDFlow through an ad on the App Store. To learn which ads and search
+            terms bring people who go on to buy, PDFlow asks Apple once, after install, whether the
+            install came from an Apple Ads tap. Apple answers with the ad&apos;s campaign, ad group,
+            keyword and country. It does not tell us who you are.
+          </p>
+          <p>
+            PDFlow sends that answer to our own server once, and again with each purchase, along with
+            which product was bought and a scrambled form of the purchase number. Nothing else goes
+            with it: no name, no email, no device id, no advertising id, and never a document or a
+            file name. Your PDFs are still processed on your iPhone and never uploaded.
+          </p>
+          <p>
+            This data is not linked to you and is not shared with anyone. We use it only to count
+            which ads work. It is not used to track you across other apps or websites.
           </p>
         </section>
 
