@@ -6,14 +6,14 @@ import { JsonLd } from '@/app/JsonLd'
 import { webSiteSchema } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'PDFlow, PDF Editor for iPhone | No Subscription',
-  description: 'PDFlow is a PDF editor for iPhone. Merge, compress, split, rotate, unlock and protect PDFs on the device. $19.99 once, or $2.99 a month.',
+  title: 'PDFlow, PDF Editor App for iPhone | No Subscription',
+  description: 'PDFlow is a PDF editor app for iPhone. Merge, compress, split, rotate, unlock and protect PDFs on the device. $19.99 once, or $2.99 a month.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     siteName: 'PDFlow',
-    title: 'PDFlow, PDF Editor for iPhone | No Subscription',
-    description: 'PDFlow is a PDF editor for iPhone. Merge, compress, split, rotate, unlock and protect PDFs on the device. $19.99 once, or $2.99 a month.',
+    title: 'PDFlow, PDF Editor App for iPhone | No Subscription',
+    description: 'PDFlow is a PDF editor app for iPhone. Merge, compress, split, rotate, unlock and protect PDFs on the device. $19.99 once, or $2.99 a month.',
     url: '/',
     images: [{ url: '/icon.png', width: 1024, height: 1024 }],
   },
@@ -113,11 +113,12 @@ export default function Home() {
           />
           {/* The serif carries the claim and the italic carries the whole personality
               budget, which is the right size for this product. The eyebrow sits inside
-              the h1 so the heading carries the page's focus keyword, "pdf editor for
-              iphone"; its own classes keep it looking exactly as it did. */}
+              the h1 so the heading carries the page's focus keyword, "pdf editor app
+              for iphone" (swapped 2026-11-13, PDF-W189); its own classes keep it
+              looking exactly as it did. */}
           <h1 className="font-serif text-[2.05rem] sm:text-[2.9rem] font-medium leading-[1.12] tracking-[-0.018em] mb-5 text-signature">
             <span className="block font-sans text-signature font-semibold text-[0.72rem] leading-normal tracking-[0.2em] uppercase mb-4">
-              PDF Editor for iPhone
+              PDF Editor App for iPhone
             </span>{' '}
             Merge, compress and protect PDFs on your iPhone.{' '}
             <br className="hidden sm:inline" />
@@ -205,6 +206,18 @@ export default function Home() {
               </Link>
             ))}
           </div>
+          {/* In-body links to the two guides the grid does not carry (PDF-W189). */}
+          <p className="text-center text-muted text-[0.9375rem] leading-[1.7] max-w-[38rem] mx-auto mt-10">
+            PDFlow signs, too. Here is{' '}
+            <Link href="/sign-pdf-iphone" className="text-signature underline decoration-rule underline-offset-[3px] transition-[text-decoration-color] duration-150 ease-out hover:decoration-signature">
+              how to sign a PDF on your iPhone
+            </Link>
+            , free with Apple&rsquo;s Markup or with PDFlow. And here is{' '}
+            <Link href="/edit-pdf-iphone" className="text-signature underline decoration-rule underline-offset-[3px] transition-[text-decoration-color] duration-150 ease-out hover:decoration-signature">
+              how to edit a PDF on your iPhone
+            </Link>
+            : every job PDFlow does to pages and files. It does not change the words inside.
+          </p>
         </div>
       </section>
 
